@@ -1,0 +1,6 @@
+{"level":"error","timestamp":"2025-12-27T14:06:19.010+0700","msg":"App started port 8080"}
+{"level":"info","timestamp":"2025-12-27T14:07:04.827+0700","msg":"App started, listening on port 8080"}
+{"level":"info","timestamp":"2025-12-27T15:10:45.816+0700","msg":"App started, listening on port 8080"}
+{"level":"info","timestamp":"2025-12-27T19:28:04.547+0700","msg":"App started, listening on port 8080"}
+{"level":"info","timestamp":"2025-12-27T19:28:11.989+0700","msg":"App started, listening on port 8080"}
+{"level":"error","timestamp":"2025-12-27T19:28:11.990+0700","msg":"Error starting server","error":"listen tcp :8080: bind: address already in use"}
