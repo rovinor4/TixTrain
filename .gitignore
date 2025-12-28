@@ -1,1 +1,41 @@
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build and dependency artifacts
+tmp/
+dist/
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Go
+bin/
+vendor/
+go.sum
+
+# Air - Live reload
+.air.toml
+
+# Storage
+storage/logs/
+storage/public/station_images/*.webp
+storage/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

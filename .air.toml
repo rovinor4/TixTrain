@@ -1,0 +1,21 @@
+# .air.toml
+
+# Folder untuk menyimpan hasil build sementara
+tmp_dir = "tmp"
+
+[build]
+# Command untuk build ulang
+cmd = "go build -o ./tmp/main ."
+# Binary hasil build yang akan dijalankan
+bin = "tmp/main"
+# Delay sebelum restart (ms)
+delay = 1000
+# File/folder yang di-watch
+include_ext = ["go", "tpl", "tmpl", "html"]
+exclude_dir = ["tmp", "vendor"]
+
+[log]
+# Warna log
+color = "true"
+# Level log
+time = "true"

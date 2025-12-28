@@ -14,7 +14,7 @@ var Logger *zap.Logger
 
 func InitLog() {
 	now := time.Now()
-	logPath := filepath.Join("storage/logs", now.Format("2006-01-02")+".log")
+	logPath := filepath.Join("storage/logs", now.Format("2006-01")+".log")
 	_ = os.MkdirAll(filepath.Dir(logPath), os.ModePerm)
 
 	lumberjackLogger := &lumberjack.Logger{

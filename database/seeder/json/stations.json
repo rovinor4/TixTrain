@@ -1,0 +1,4802 @@
+[
+  {
+    "name": "GAMBIR",
+    "code": "GMR",
+    "image": "https://168railway.space/station-images/97/d61a717d-c042-4e92-8d3f-9c9de6164cf4.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/gambir",
+    "latitude": -6.1767,
+    "longitude": 106.8308,
+    "country": "Indonesia",
+    "image_local_path": "station_images/GMR.jpg"
+  },
+  {
+    "name": "TUGU",
+    "code": "YK",
+    "image": "https://168railway.space/station-images/143/28a0585e-7152-4d25-8958-2a9a22ebfdca.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tugu",
+    "latitude": -7.7892,
+    "longitude": 110.3636,
+    "country": "Indonesia",
+    "image_local_path": "station_images/YK.jpg"
+  },
+  {
+    "name": "CIREBON",
+    "code": "CN",
+    "image": "https://168railway.space/station-images/61/ace708d1-ddf4-4cc9-a0df-8964f87e6e11.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cirebon",
+    "latitude": -6.7055,
+    "longitude": 108.5554,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CN.jpg"
+  },
+  {
+    "name": "PASAR SENEN",
+    "code": "PSE",
+    "image": "https://168railway.space/station-images/299/69d59398-72f4-41d4-a6bc-810c1e4fcfed.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/pasar-senen",
+    "latitude": -6.1745,
+    "longitude": 106.8442,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PSE.jpg"
+  },
+  {
+    "name": "MADIUN",
+    "code": "MN",
+    "image": "https://168railway.space/station-images/120/ca499dc4-5232-4d76-8b9f-cc0bf2c9891e.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/madiun",
+    "latitude": -7.6184,
+    "longitude": 111.525,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MN.jpg"
+  },
+  {
+    "name": "RANCAEKEK",
+    "code": "RCK",
+    "image": "https://168railway.space/station-images/215/6ba46eb8-af50-49e0-827b-bde0ba0a9c76.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/rancaekek",
+    "latitude": -6.9648,
+    "longitude": 107.756,
+    "country": "Indonesia",
+    "image_local_path": "station_images/RCK.jpg"
+  },
+  {
+    "name": "TANAH ABANG",
+    "code": "THB",
+    "image": "https://168railway.space/station-images/398/b3dd8582-5f7e-4d7e-b5f6-1301d8b176ab.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tanah-abang",
+    "latitude": -6.1861,
+    "longitude": 106.8108,
+    "country": "Indonesia",
+    "image_local_path": "station_images/THB.jpg"
+  },
+  {
+    "name": "KARAWANG",
+    "code": "KW",
+    "image": "https://168railway.space/station-images/83/765bc1f6-a4a5-47ce-88de-7fc724661668.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/karawang",
+    "latitude": -6.3052,
+    "longitude": 107.3002,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KW.jpg"
+  },
+  {
+    "name": "BANDUNG",
+    "code": "BD",
+    "image": "https://168railway.space/station-images/220/d955be93-2b63-4b83-9d88-d3487b5b6417.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bandung",
+    "latitude": -6.9139,
+    "longitude": 107.6026,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BD.jpg"
+  },
+  {
+    "name": "MALANG",
+    "code": "ML",
+    "image": "https://168railway.space/station-images/252/0d23504b-c06d-40b3-9c50-899e72a0d93d.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/malang",
+    "latitude": -7.9774,
+    "longitude": 112.6374,
+    "country": "Indonesia",
+    "image_local_path": "station_images/ML.jpg"
+  },
+  {
+    "name": "LEMAH ABANG",
+    "code": "LMB",
+    "image": "https://168railway.space/station-images/85/03444063-fb32-446d-ab1c-1640c8401652.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/lemah-abang",
+    "latitude": -6.2706,
+    "longitude": 107.1798,
+    "country": "Indonesia",
+    "image_local_path": "station_images/LMB.jpg"
+  },
+  {
+    "name": "LEMPUYANGAN",
+    "code": "LPN",
+    "image": "https://168railway.space/station-images/142/2b98bea5-29d0-49af-8d53-dc69531c47bd.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/lempuyangan",
+    "latitude": -7.7901,
+    "longitude": 110.3748,
+    "country": "Indonesia",
+    "image_local_path": "station_images/LPN.jpg"
+  },
+  {
+    "name": "KUTOARJO",
+    "code": "KTA",
+    "image": "https://168railway.space/station-images/151/ea15725b-6acb-40b1-b8c9-6c29c62093c4.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kutoarjo",
+    "latitude": -7.7262,
+    "longitude": 109.9074,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KTA.jpg"
+  },
+  {
+    "name": "SEMARANG TAWANG BANK JATENG",
+    "code": "SMT",
+    "image": "https://168railway.space/station-images/35/5c542286-080b-4d72-9bc4-2dab2471b482.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/semarang-tawang-bank-jateng",
+    "latitude": -6.9644,
+    "longitude": 110.4278,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SMT.jpg"
+  },
+  {
+    "name": "NAMBO",
+    "code": "NMO",
+    "image": "https://168railway.space/station-images/438/38dfbb89-fd9d-4ad5-9077-05e7aae395c5.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/nambo",
+    "latitude": -6.4664,
+    "longitude": 106.9064,
+    "country": "Indonesia",
+    "image_local_path": "station_images/NMO.jpg"
+  },
+  {
+    "name": "JATINEGARA",
+    "code": "JNG",
+    "image": "https://168railway.space/station-images/92/01cec539-e6f7-4a42-a3b3-a9fd8be9573f.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/jatinegara",
+    "latitude": -6.2149,
+    "longitude": 106.87,
+    "country": "Indonesia",
+    "image_local_path": "station_images/JNG.jpg"
+  },
+  {
+    "name": "TAMBUN",
+    "code": "TB",
+    "image": "https://168railway.space/station-images/89/3847a211-1d5b-4349-b8a8-0b3ca292ffc6.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tambun",
+    "latitude": -6.2586,
+    "longitude": 107.0558,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TB.jpg"
+  },
+  {
+    "name": "PURWOKERTO",
+    "code": "PWT",
+    "image": "https://168railway.space/station-images/168/e8145130-e82b-4750-aedf-7440b0595a8c.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/purwokerto",
+    "latitude": -7.4191,
+    "longitude": 109.222,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PWT.jpg"
+  },
+  {
+    "name": "SEMARANG PONCOL",
+    "code": "SMC",
+    "image": "https://168railway.space/station-images/36/57c48210-7523-4c7b-aff0-45b42301e2b7.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/semarang-poncol",
+    "latitude": -6.9729,
+    "longitude": 110.4148,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SMC.jpg"
+  },
+  {
+    "name": "KERTOSONO",
+    "code": "KTS",
+    "image": "https://168railway.space/station-images/112/32aad412-13ff-4e3f-b880-98308e8a0231.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kertosono",
+    "latitude": -7.5918,
+    "longitude": 112.1008,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KTS.jpg"
+  },
+  {
+    "name": "MAGETAN (BARAT)",
+    "code": "MAG",
+    "image": "https://168railway.space/station-images/121/c60c1548-2b6a-4a20-b947-c6eda2fe8606.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/magetan-barat",
+    "latitude": -7.5621,
+    "longitude": 111.4512,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MAG.jpg"
+  },
+  {
+    "name": "MAOS",
+    "code": "MA",
+    "image": "https://168railway.space/station-images/183/f1e7e613-7462-4ca6-9e0f-4a69f6c5f7e5.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/maos",
+    "latitude": -7.6191,
+    "longitude": 109.1398,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MA.jpg"
+  },
+  {
+    "name": "PURWAKARTA",
+    "code": "PWK",
+    "image": "https://168railway.space/station-images/302/ba364e3c-6fdb-4964-b44c-29c5ede5484b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/purwakarta",
+    "latitude": -6.5527,
+    "longitude": 107.4464,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PWK.jpg"
+  },
+  {
+    "name": "PAKISAJI",
+    "code": "PSI",
+    "image": "https://168railway.space/station-images/254/8c5a6eab-2cde-43ec-bcc2-45c3fc1bd820.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/pakisaji",
+    "latitude": -8.0693,
+    "longitude": 112.5986,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PSI.jpg"
+  },
+  {
+    "name": "MANGGARAI",
+    "code": "MRI",
+    "image": "https://168railway.space/station-images/94/0cc64e96-1b84-47cf-9814-65f636c59140.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/manggarai",
+    "latitude": -6.2099,
+    "longitude": 106.8498,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MRI.jpg"
+  },
+  {
+    "name": "CIKARANG",
+    "code": "CKR",
+    "image": "https://168railway.space/station-images/86/09049b74-665d-456e-9184-eafa71c936ed.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cikarang",
+    "latitude": -6.2549,
+    "longitude": 107.1446,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CKR.jpg"
+  },
+  {
+    "name": "Depok",
+    "code": "DP",
+    "image": "https://168railway.space/station-images/433/fae8d459-8899-45d6-ac24-c039790571ce.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/depok",
+    "latitude": -6.4047,
+    "longitude": 106.8172,
+    "country": "Indonesia",
+    "image_local_path": "station_images/DP.jpg"
+  },
+  {
+    "name": "Citayam",
+    "code": "CTA",
+    "image": "https://168railway.space/station-images/434/bbc2532a-2752-44f0-acf0-3812e05afd2f.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/citayam",
+    "latitude": -6.449,
+    "longitude": 106.8024,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CTA.jpg"
+  },
+  {
+    "name": "JAKARTA KOTA",
+    "code": "JAKK",
+    "image": "https://168railway.space/station-images/476/065531b3-0623-4d9e-8dbd-7a8573f532cd.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/jakarta-kota",
+    "latitude": -6.1376,
+    "longitude": 106.8146,
+    "country": "Indonesia",
+    "image_local_path": "station_images/JAKK.jpg"
+  },
+  {
+    "name": "Pondok Cina",
+    "code": "POC",
+    "image": "https://168railway.space/station-images/431/ade1439a-ffb6-4787-8065-0cc853cfb0c3.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/pondok-cina",
+    "latitude": -6.3689,
+    "longitude": 106.8324,
+    "country": "Indonesia",
+    "image_local_path": "station_images/POC.jpg"
+  },
+  {
+    "name": "Sudirman",
+    "code": "SUD",
+    "image": "https://168railway.space/station-images/421/75bb8555-592d-4ab7-a440-31e0e933c2de.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sudirman",
+    "latitude": -6.2021,
+    "longitude": 106.8234,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SUD.jpg"
+  },
+  {
+    "name": "JATIBARANG",
+    "code": "JTB",
+    "image": "https://168railway.space/station-images/66/764048f9-ea48-4294-9d55-f11dea74c802.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/jatibarang",
+    "latitude": -6.4729,
+    "longitude": 108.306,
+    "country": "Indonesia",
+    "image_local_path": "station_images/JTB.jpg"
+  },
+  {
+    "name": "WATES",
+    "code": "WT",
+    "image": "https://168railway.space/station-images/147/a7333b53-c6d2-4a49-b1e4-a6c58767beb0.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/wates",
+    "latitude": -7.8595,
+    "longitude": 110.158,
+    "country": "Indonesia",
+    "image_local_path": "station_images/WT.jpg"
+  },
+  {
+    "name": "PURWOSARI",
+    "code": "PWS",
+    "image": "https://168railway.space/station-images/134/a6a2e25c-3ea9-435f-8d9c-024ec836ea56.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/purwosari",
+    "latitude": -7.5618,
+    "longitude": 110.7964,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PWS.jpg"
+  },
+  {
+    "name": "GOMBONG",
+    "code": "GB",
+    "image": "https://168railway.space/station-images/159/b7b742c0-1396-4ee5-a552-9686bcc5f34c.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/gombong",
+    "latitude": -7.6109,
+    "longitude": 109.5068,
+    "country": "Indonesia",
+    "image_local_path": "station_images/GB.jpg"
+  },
+  {
+    "name": "SURABAYA GUBENG",
+    "code": "SGU",
+    "image": "https://168railway.space/station-images/98/c0d9a502-56ee-4c61-b2a0-b10e84e86b52.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/surabaya-gubeng",
+    "latitude": -7.2652,
+    "longitude": 112.7522,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SGU.jpg"
+  },
+  {
+    "name": "WONOKROMO",
+    "code": "WO",
+    "image": "https://168railway.space/station-images/100/02b1794c-eb1a-484b-9466-715a7471af7b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/wonokromo",
+    "latitude": -7.3021,
+    "longitude": 112.7394,
+    "country": "Indonesia",
+    "image_local_path": "station_images/WO.jpg"
+  },
+  {
+    "name": "Sindang Laut",
+    "code": "SDU",
+    "image": "https://168railway.space/station-images/180/4a20d969-3ae5-4398-a4f4-15a7e485a380.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sindang-laut",
+    "latitude": -6.8328,
+    "longitude": 108.626,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SDU.jpg"
+  },
+  {
+    "name": "NGAWI",
+    "code": "NGW",
+    "image": "https://168railway.space/station-images/123/36e61e1c-42aa-4b35-a36f-ba05e3b2f949.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/ngawi",
+    "latitude": -7.4423,
+    "longitude": 111.387,
+    "country": "Indonesia",
+    "image_local_path": "station_images/NGW.jpg"
+  },
+  {
+    "name": "KIARA CONDONG",
+    "code": "KAC",
+    "image": "https://168railway.space/station-images/218/3bcbbb2a-1c64-4e7e-9895-03ffc56106a2.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kiara-condong",
+    "latitude": -6.9251,
+    "longitude": 107.6464,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KAC.jpg"
+  },
+  {
+    "name": "MOJOKERTO",
+    "code": "MR",
+    "image": "https://168railway.space/station-images/106/65323a42-e1c7-4bf0-9c7b-87e93aa11762.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/mojokerto",
+    "latitude": -7.4724,
+    "longitude": 112.4344,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MR.jpg"
+  },
+  {
+    "name": "Sikampuh",
+    "code": "SKP",
+    "image": "https://168railway.space/station-images/182/636d29ab-9987-4bca-889d-047b58d343ea.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sikampuh",
+    "latitude": -7.6258,
+    "longitude": 109.1976,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SKP.jpg"
+  },
+  {
+    "name": "KEDINDING",
+    "code": "KDN",
+    "image": "https://168railway.space/station-images/104/a93d62cf-42ff-4a98-8619-7878fac8d282.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kedinding",
+    "latitude": -7.4371,
+    "longitude": 112.5526,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KDN.jpg"
+  },
+  {
+    "name": "SEPANJANG",
+    "code": "SPJ",
+    "image": "https://168railway.space/station-images/101/5f69a2a8-cec7-4b9d-a6fc-0e13bae24258.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sepanjang",
+    "latitude": -7.3472,
+    "longitude": 112.6978,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SPJ.jpg"
+  },
+  {
+    "name": "SEMBUNG",
+    "code": "SMB",
+    "image": "https://168railway.space/station-images/111/c5e6b48e-e3f3-43db-8b67-c609bc44aabf.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sembung",
+    "latitude": -7.5827,
+    "longitude": 112.1672,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SMB.jpg"
+  },
+  {
+    "name": "Stasiun Kereta Api Cepat - Padalarang",
+    "code": "KCIC-PDL",
+    "image": "https://168railway.space/station-images/806/9f4b566f-96af-47e8-8188-8a077b2b6687.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/stasiun-kereta-api-cepat-padalarang",
+    "latitude": -6.8417,
+    "longitude": 107.4965,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KCIC-PDL.jpg"
+  },
+  {
+    "name": "BLITAR",
+    "code": "BL",
+    "image": "https://168railway.space/station-images/263/f8d48078-2f35-47ec-af5a-a28eb88a64d4.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/blitar",
+    "latitude": -8.1014,
+    "longitude": 112.1628,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BL.jpg"
+  },
+  {
+    "name": "CIPEUNDEUY",
+    "code": "CPD",
+    "image": "https://168railway.space/station-images/204/61633482-759e-48de-811d-92abf7185b05.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cipeundeuy",
+    "latitude": -7.0936,
+    "longitude": 108.1006,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CPD.jpg"
+  },
+  {
+    "name": "Rajapolah",
+    "code": "RJP",
+    "image": "https://168railway.space/station-images/201/aa5c23f8-dfaa-44c5-99a8-0acaec8b5f25.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/rajapolah",
+    "latitude": -7.2195,
+    "longitude": 108.1912,
+    "country": "Indonesia",
+    "image_local_path": "station_images/RJP.jpg"
+  },
+  {
+    "name": "KEDIRI",
+    "code": "KD",
+    "image": "https://168railway.space/station-images/271/29015f3f-dc21-41c1-9380-2777d1fc4635.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kediri",
+    "latitude": -7.8172,
+    "longitude": 112.0156,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KD.jpg"
+  },
+  {
+    "name": "MERAK",
+    "code": "MER",
+    "image": "https://168railway.space/station-images/354/5caed958-088f-4747-9302-51a632e9ff8b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/merak",
+    "latitude": -5.9303,
+    "longitude": 105.9972,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MER.jpg"
+  },
+  {
+    "name": "BEKASI",
+    "code": "BKS",
+    "image": "https://168railway.space/station-images/91/5b2e9f71-b051-4450-8f32-5bd1c7fb30a2.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bekasi",
+    "latitude": -6.2367,
+    "longitude": 106.9994,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BKS.jpg"
+  },
+  {
+    "name": "CIKINI",
+    "code": "CKI",
+    "image": "https://168railway.space/station-images/95/602023e1-9b7d-49af-b122-75fa7ee4136a.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cikini",
+    "latitude": -6.1985,
+    "longitude": 106.8412,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CKI.jpg"
+  },
+  {
+    "name": "Tebet",
+    "code": "TEB",
+    "image": "https://168railway.space/station-images/422/042e3bd5-13c9-44bf-b4ff-5144430cba27.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tebet",
+    "latitude": -6.2267,
+    "longitude": 106.8584,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TEB.jpg"
+  },
+  {
+    "name": "Lentengagung",
+    "code": "LNA",
+    "image": "https://168railway.space/station-images/428/f2c976b3-60bc-4a08-8450-7b6995243a77.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/lentengagung",
+    "latitude": -6.3299,
+    "longitude": 106.8346,
+    "country": "Indonesia",
+    "image_local_path": "station_images/LNA.jpg"
+  },
+  {
+    "name": "BOGOR",
+    "code": "BOO",
+    "image": "https://168railway.space/station-images/353/61499704-a100-4675-9788-38926ea8f6b0.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bogor",
+    "latitude": -6.5938,
+    "longitude": 106.7906,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BOO.jpg"
+  },
+  {
+    "name": "Karet",
+    "code": "KAT",
+    "image": "https://168railway.space/station-images/419/ec8f980f-b5eb-42c8-b748-18b5983868a1.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/karet",
+    "latitude": -6.2008,
+    "longitude": 106.816,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KAT.jpg"
+  },
+  {
+    "name": "Bojong Gede",
+    "code": "BJD",
+    "image": "https://168railway.space/station-images/491/9697b1c9-03f3-445b-a9af-a62078c95a8d.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bojong-gede",
+    "latitude": -6.4927,
+    "longitude": 106.7948,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BJD.jpg"
+  },
+  {
+    "name": "CIKAMPEK",
+    "code": "CKP",
+    "image": "https://168railway.space/station-images/79/e179c371-dbd5-49ea-8ad2-2dc5949c705b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cikampek",
+    "latitude": -6.4061,
+    "longitude": 107.459,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CKP.jpg"
+  },
+  {
+    "name": "Kampungbandan",
+    "code": "KPB",
+    "image": "https://168railway.space/station-images/391/8d235b33-ef13-4178-8197-6d6b9147ea34.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kampungbandan",
+    "latitude": -6.1324,
+    "longitude": 106.8286,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KPB.jpg"
+  },
+  {
+    "name": "Jayakarta",
+    "code": "JAY",
+    "image": "https://168railway.space/station-images/802/5678b6a6-79ef-40a1-8112-ecc3d737a7d7.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/jayakarta",
+    "latitude": -6.1413,
+    "longitude": 106.823,
+    "country": "Indonesia",
+    "image_local_path": "station_images/JAY.jpg"
+  },
+  {
+    "name": "Pasirbungur",
+    "code": "PAS",
+    "image": "https://168railway.space/station-images/75/3a1a6c3b-6e1b-4922-971d-37fa3ffa43b0.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/pasirbungur",
+    "latitude": -6.4264,
+    "longitude": 107.6886,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PAS.jpg"
+  },
+  {
+    "name": "TERISI",
+    "code": "TIS",
+    "image": "https://168railway.space/station-images/68/ef6e9448-75db-4efb-ab07-78395af1ddac.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/terisi",
+    "latitude": -6.4701,
+    "longitude": 108.1604,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TIS.jpg"
+  },
+  {
+    "name": "KROYA",
+    "code": "KYA",
+    "image": "https://168railway.space/station-images/164/397356de-1234-420c-a90c-84607f9c7911.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kroya",
+    "latitude": -7.63,
+    "longitude": 109.2538,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KYA.jpg"
+  },
+  {
+    "name": "Rewulu",
+    "code": "RWL",
+    "image": "https://168railway.space/station-images/145/273a8547-f224-4409-8e45-b63ce28cd539.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/rewulu",
+    "latitude": -7.7959,
+    "longitude": 110.2842,
+    "country": "Indonesia",
+    "image_local_path": "station_images/RWL.jpg"
+  },
+  {
+    "name": "SOLO BALAPAN",
+    "code": "SLO",
+    "image": "https://168railway.space/station-images/133/b7aca922-74c4-4bc6-a25d-b9518c65b0c9.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/solo-balapan",
+    "latitude": -7.5572,
+    "longitude": 110.8214,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SLO.jpg"
+  },
+  {
+    "name": "SUDIMARA",
+    "code": "SDM",
+    "image": "https://168railway.space/station-images/403/a69461f1-79ca-4316-bb74-c482531ffa55.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sudimara",
+    "latitude": -6.2967,
+    "longitude": 106.7128,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SDM.jpg"
+  },
+  {
+    "name": "MAGUWO",
+    "code": "MGW",
+    "image": "https://168railway.space/station-images/141/ab53f0b0-4c3e-4503-ac74-30c1da9117b2.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/maguwo",
+    "latitude": -7.785,
+    "longitude": 110.437,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MGW.jpg"
+  },
+  {
+    "name": "CIMAHI",
+    "code": "CMI",
+    "image": "https://168railway.space/station-images/314/1fdc4a31-19e7-4dc4-8929-994b09622c52.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/cimahi",
+    "latitude": -6.8859,
+    "longitude": 107.536,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CMI.jpg"
+  },
+  {
+    "name": "PADALARANG",
+    "code": "PDL",
+    "image": "https://168railway.space/station-images/312/6c3e6983-92ba-405c-89e8-ed8b845c623f.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/padalarang",
+    "latitude": -6.8428,
+    "longitude": 107.4976,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PDL.jpg"
+  },
+  {
+    "name": "TEGAL",
+    "code": "TG",
+    "image": "https://168railway.space/station-images/54/ff3d9c21-97cb-4765-9eb6-7c33e1d125fa.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tegal",
+    "latitude": -6.8674,
+    "longitude": 109.1428,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TG.jpg"
+  },
+  {
+    "name": "Tigaraksa",
+    "code": "TGS",
+    "image": "https://168railway.space/station-images/412/9b5adcd0-7248-40aa-a88b-4583333ecb22.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tigaraksa",
+    "latitude": -6.3283,
+    "longitude": 106.4344,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TGS.jpg"
+  },
+  {
+    "name": "SOLO JEBRES",
+    "code": "SK",
+    "image": "https://168railway.space/station-images/132/9cbba4f3-2b22-4e68-aea2-d468158d8c23.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/solo-jebres",
+    "latitude": -7.5621,
+    "longitude": 110.8394,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SK.jpg"
+  },
+  {
+    "name": "PEKALONGAN",
+    "code": "PK",
+    "image": "https://168railway.space/station-images/47/81c62829-ff6f-425b-948b-1f402176c69e.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/pekalongan",
+    "latitude": -6.8898,
+    "longitude": 109.6642,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PK.jpg"
+  },
+  {
+    "name": "Petarukan",
+    "code": "PTA",
+    "image": "https://168railway.space/station-images/50/5949c5bc-4d21-4025-b3a8-9fd268f4ebe6.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/petarukan",
+    "latitude": -6.8977,
+    "longitude": 109.4496,
+    "country": "Indonesia",
+    "image_local_path": "station_images/PTA.jpg"
+  },
+  {
+    "name": "BABAKAN",
+    "code": "BBK",
+    "image": "https://168railway.space/station-images/58/6a4a40fc-3feb-4f3e-9d4e-0c0427aeca15.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/babakan",
+    "latitude": -6.8606,
+    "longitude": 108.72,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BBK.jpg"
+  },
+  {
+    "name": "SURABAYA PASAR TURI",
+    "code": "SBI",
+    "image": "https://168railway.space/station-images/1/cc4c7737-0007-4e58-9b58-0eb34cbfda9b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/surabaya-pasar-turi",
+    "latitude": -7.2482,
+    "longitude": 112.7312,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SBI.jpg"
+  },
+  {
+    "name": "WALIKUKUN",
+    "code": "WK",
+    "image": "https://168railway.space/station-images/125/f770d1d3-eb95-47c6-8bfa-fa550e4eee3c.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/walikukun",
+    "latitude": -7.3987,
+    "longitude": 111.2246,
+    "country": "Indonesia",
+    "image_local_path": "station_images/WK.jpg"
+  },
+  {
+    "name": "BABADAN",
+    "code": "BBD",
+    "image": "https://168railway.space/station-images/119/7383f957-de96-47c3-abc4-999687940b0b.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/babadan",
+    "latitude": -7.5871,
+    "longitude": 111.5886,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BBD.jpg"
+  },
+  {
+    "name": "TANJUNG PRIOK",
+    "code": "TPK",
+    "image": "https://168railway.space/station-images/395/99735115-28ba-4016-bb8a-f8f9f2159d26.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tanjung-priok",
+    "latitude": -6.1104,
+    "longitude": 106.882,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TPK.jpg"
+  },
+  {
+    "name": "BABAT",
+    "code": "BBT",
+    "image": "https://168railway.space/station-images/11/e9f8e37d-b1b3-4987-94b7-0da70aa28588.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/babat",
+    "latitude": -7.1061,
+    "longitude": 112.1686,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BBT.jpg"
+  },
+  {
+    "name": "BOJONEGORO",
+    "code": "BJ",
+    "image": "https://168railway.space/station-images/15/93389370-7d4b-470b-ae6d-27f7080df2ee.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bojonegoro",
+    "latitude": -7.1644,
+    "longitude": 111.8868,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BJ.jpg"
+  },
+  {
+    "name": "BANGIL",
+    "code": "BG",
+    "image": "https://168railway.space/station-images/235/1157cf51-812b-4ccc-ac3b-24465f9fa8d8.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bangil",
+    "latitude": -7.599,
+    "longitude": 112.7782,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BG.jpg"
+  },
+  {
+    "name": "SIDOARJO",
+    "code": "SDA",
+    "image": "https://168railway.space/station-images/232/f716dbe3-72d0-4e0a-a5b2-9d9f53cf3788.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sidoarjo",
+    "latitude": -7.457,
+    "longitude": 112.7126,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SDA.jpg"
+  },
+  {
+    "name": "SURABAYA KOTA",
+    "code": "SB",
+    "image": "https://168railway.space/station-images/222/35cbec40-f619-41d6-bddc-bceea8a7de1d.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/surabaya-kota",
+    "latitude": -7.243,
+    "longitude": 112.742,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SB.jpg"
+  },
+  {
+    "name": "Bandara Soekarno Hatta",
+    "code": "BST",
+    "image": "https://168railway.space/station-images/800/c94a3947-c23b-4f02-b07e-719a04854087.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/bandara-soekarno-hatta",
+    "latitude": -6.1276,
+    "longitude": 106.6517,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BST.jpg"
+  },
+  {
+    "name": "MALANG KOTA LAMA",
+    "code": "MLK",
+    "image": "https://168railway.space/station-images/253/649f2bc8-57f2-403f-a4eb-ffaaed8b4486.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/malang-kota-lama",
+    "latitude": -7.9951,
+    "longitude": 112.6324,
+    "country": "Indonesia",
+    "image_local_path": "station_images/MLK.jpg"
+  },
+  {
+    "name": "SASAKSAAT",
+    "code": "SKT",
+    "image": "https://168railway.space/station-images/310/97aec3a7-4d26-4641-b0f1-e242811305c0.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sasaksaat",
+    "latitude": -6.7792,
+    "longitude": 107.4316,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SKT.jpg"
+  },
+  {
+    "name": "BANJAR",
+    "code": "BJR",
+    "image": "https://168railway.space/station-images/193/577a7342-8f02-4b39-b531-4c78959b1ddf.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/banjar",
+    "latitude": -7.3761,
+    "longitude": 108.5424,
+    "country": "Indonesia",
+    "image_local_path": "station_images/BJR.jpg"
+  },
+  {
+    "name": "CIAMIS",
+    "code": "CI",
+    "image": "https://168railway.space/station-images/196/f31b1973-5451-4ee4-8717-ed557ea230a4.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/ciamis",
+    "latitude": -7.3294,
+    "longitude": 108.3558,
+    "country": "Indonesia",
+    "image_local_path": "station_images/CI.jpg"
+  },
+  {
+    "name": "TASIKMALAYA",
+    "code": "TSM",
+    "image": "https://168railway.space/station-images/199/51c21048-4f22-4482-a630-4f3ab8994524.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/tasikmalaya",
+    "latitude": -7.3226,
+    "longitude": 108.2242,
+    "country": "Indonesia",
+    "image_local_path": "station_images/TSM.jpg"
+  },
+  {
+    "name": "KRAS",
+    "code": "KRS",
+    "image": "https://168railway.space/station-images/269/ee13b1a6-db56-4ac5-a0d8-2b050286e62d.png",
+    "url_new": "https://168railway.com/jadwal-stasiun/kras",
+    "latitude": -7.9456,
+    "longitude": 111.9639,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KRS.png"
+  },
+  {
+    "name": "JERUKLEGI",
+    "code": "JRL",
+    "image": "https://168railway.space/station-images/186/d77ffd25-c993-4a16-9863-71f1dbff908d.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/jeruklegi",
+    "latitude": -7.6235,
+    "longitude": 109.019,
+    "country": "Indonesia",
+    "image_local_path": "station_images/JRL.jpg"
+  },
+  {
+    "name": "KESAMBEN",
+    "code": "KSB",
+    "image": "https://168railway.space/station-images/259/04bedbd4-1d46-45f2-8098-fe85c698304e.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/kesamben",
+    "latitude": -8.1493,
+    "longitude": 112.3636,
+    "country": "Indonesia",
+    "image_local_path": "station_images/KSB.jpg"
+  },
+  {
+    "name": "SUKABUMI",
+    "code": "SI",
+    "image": "https://168railway.space/station-images/340/60aa53b2-bae7-4d16-a41e-135c087826d9.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/sukabumi",
+    "latitude": -6.9239,
+    "longitude": 106.9248,
+    "country": "Indonesia",
+    "image_local_path": "station_images/SI.jpg"
+  },
+  {
+    "name": "GARUT",
+    "code": "GRT",
+    "image": "https://168railway.space/station-images/317/0aba0857-7050-4d20-84e3-e189d285d087.jpg",
+    "url_new": "https://168railway.com/jadwal-stasiun/garut",
+    "latitude": -7.2134,
+    "longitude": 107.9035,
+    "country": "Indonesia",
+    "image_local_path": "station_images/GRT.jpg"
+  },
+  {
+    "name": "DURI",
+    "code": "DU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/duri",
+    "latitude": -6.1559,
+    "longitude": 106.8016,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Bekasitimur",
+    "code": "BKST",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bekasitimur",
+    "latitude": -6.2467,
+    "longitude": 107.018,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cibitung",
+    "code": "CIT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibitung",
+    "latitude": -6.2618,
+    "longitude": 107.0836,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Telaga Murni",
+    "code": "TLM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/telaga-murni",
+    "latitude": -6.2574,
+    "longitude": 107.1112,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Gondangdia",
+    "code": "GDD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gondangdia",
+    "latitude": -6.1861,
+    "longitude": 106.8328,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Universitas Indonesia",
+    "code": "UI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/universitas-indonesia",
+    "latitude": -6.3607,
+    "longitude": 106.8318,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Depok Baru",
+    "code": "DPB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/depok-baru",
+    "latitude": -6.3913,
+    "longitude": 106.8216,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pasar Minggu",
+    "code": "PSM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pasar-minggu",
+    "latitude": -6.2844,
+    "longitude": 106.8446,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cawang",
+    "code": "CW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cawang",
+    "latitude": -6.2417,
+    "longitude": 106.8586,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Duren Kalibata",
+    "code": "DRN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/duren-kalibata",
+    "latitude": -6.2557,
+    "longitude": 106.855,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pasar Minggu Baru",
+    "code": "PSMB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pasar-minggu-baru",
+    "latitude": -6.2628,
+    "longitude": 106.8518,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tanjung Barat",
+    "code": "TNT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanjung-barat",
+    "latitude": -6.3085,
+    "longitude": 106.839,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Universitas Pancasila",
+    "code": "UP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/universitas-pancasila",
+    "latitude": -6.3391,
+    "longitude": 106.8342,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Matraman",
+    "code": "MTR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/matraman",
+    "latitude": -6.2124,
+    "longitude": 106.8597,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sudirmanbaru",
+    "code": "SUDB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sudirmanbaru",
+    "latitude": -6.2015,
+    "longitude": 106.8197,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cilebut",
+    "code": "CLT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilebut",
+    "latitude": -6.5305,
+    "longitude": 106.8006,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CAKUNG",
+    "code": "CUK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cakung",
+    "latitude": -6.2192,
+    "longitude": 106.9522,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BUARAN",
+    "code": "BUA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/buaran",
+    "latitude": -6.2162,
+    "longitude": 106.9276,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KLENDER",
+    "code": "KLD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/klender",
+    "latitude": -6.2134,
+    "longitude": 106.9,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KLENDER BARU",
+    "code": "KLDB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/klender-baru",
+    "latitude": -6.2176,
+    "longitude": 106.9398,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kranji",
+    "code": "KRI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kranji",
+    "latitude": -6.2243,
+    "longitude": 106.9792,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Juanda",
+    "code": "JUA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/juanda",
+    "latitude": -6.1666,
+    "longitude": 106.8304,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Mangga Besar",
+    "code": "MGB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mangga-besar",
+    "latitude": -6.1498,
+    "longitude": 106.827,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sawahbesar",
+    "code": "SW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sawahbesar",
+    "latitude": -6.1606,
+    "longitude": 106.8276,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "DAWUAN",
+    "code": "DWN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/dawuan",
+    "latitude": -6.3932,
+    "longitude": 107.4334,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KLARI",
+    "code": "KLI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/klari",
+    "latitude": -6.35,
+    "longitude": 107.3454,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KOSAMBI",
+    "code": "KOS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kosambi",
+    "latitude": -6.3692,
+    "longitude": 107.3748,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEDUNG GEDEH",
+    "code": "KDH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kedung-gedeh",
+    "latitude": -6.2699,
+    "longitude": 107.2612,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ANGKE",
+    "code": "AK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/angke",
+    "latitude": -6.1447,
+    "longitude": 106.8008,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ARJAWINANGUN",
+    "code": "AWN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/arjawinangun",
+    "latitude": -6.6446,
+    "longitude": 108.4146,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Bangoduwa",
+    "code": "BDW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bangoduwa",
+    "latitude": -6.663,
+    "longitude": 108.46,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cangkring",
+    "code": "CNK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cangkring",
+    "latitude": -6.6795,
+    "longitude": 108.5008,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pabuaran",
+    "code": "PAB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pabuaran",
+    "latitude": -6.4092,
+    "longitude": 107.584,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pringkasap",
+    "code": "PRI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pringkasap",
+    "latitude": -6.4181,
+    "longitude": 107.6344,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tanjungrasa",
+    "code": "TJS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanjungrasa",
+    "latitude": -6.4084,
+    "longitude": 107.5406,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cikaum",
+    "code": "CKM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cikaum",
+    "latitude": -6.4355,
+    "longitude": 107.7396,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cilegeh",
+    "code": "CLH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilegeh",
+    "latitude": -6.464,
+    "longitude": 108.0354,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cipunegara",
+    "code": "CRA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cipunegara",
+    "latitude": -6.4552,
+    "longitude": 107.8824,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "HAURGEULIS",
+    "code": "HGL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/haurgeulis",
+    "latitude": -6.4586,
+    "longitude": 107.941,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kadokangabus",
+    "code": "KAB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kadokangabus",
+    "latitude": -6.4677,
+    "longitude": 108.107,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kertasemaya",
+    "code": "KTM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kertasemaya",
+    "latitude": -6.5282,
+    "longitude": 108.3534,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PAGADEN BARU",
+    "code": "PGB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pagaden-baru",
+    "latitude": -6.4538,
+    "longitude": 107.8172,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Telagasari",
+    "code": "TLS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/telagasari",
+    "latitude": -6.4646,
+    "longitude": 108.235,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIREBON PRUJAKAN",
+    "code": "CNP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cirebon-prujakan",
+    "latitude": -6.7192,
+    "longitude": 108.5588,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KRAMAT",
+    "code": "KMT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kramat",
+    "latitude": -6.1939,
+    "longitude": 106.8566,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PONDOK JATI",
+    "code": "POK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pondok-jati",
+    "latitude": -6.209,
+    "longitude": 106.8622,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sentiong",
+    "code": "GST",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sentiong",
+    "latitude": -6.1863,
+    "longitude": 106.851,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Patukan",
+    "code": "PTN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/patukan",
+    "latitude": -7.7908,
+    "longitude": 110.3254,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sentolo",
+    "code": "STL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sentolo",
+    "latitude": -7.8332,
+    "longitude": 110.2202,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEDUNDANG",
+    "code": "KDG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kedundang",
+    "latitude": -7.8783,
+    "longitude": 110.0988,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SERPONG",
+    "code": "SRP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/serpong",
+    "latitude": -6.3202,
+    "longitude": 106.6656,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PARUNG PANJANG",
+    "code": "PRP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/parung-panjang",
+    "latitude": -6.3442,
+    "longitude": 106.5688,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cicayur",
+    "code": "CC",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cicayur",
+    "latitude": -6.3296,
+    "longitude": 106.619,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cisauk",
+    "code": "CSK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cisauk",
+    "latitude": -6.3247,
+    "longitude": 106.6412,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Jurang Mangu",
+    "code": "JMU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jurang-mangu",
+    "latitude": -6.2885,
+    "longitude": 106.7292,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEBAYORAN",
+    "code": "KBY",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kebayoran",
+    "latitude": -6.2374,
+    "longitude": 106.7824,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PALMERAH",
+    "code": "PLM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/palmerah",
+    "latitude": -6.2076,
+    "longitude": 106.7974,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PONDOK RANJI",
+    "code": "PDJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pondok-ranji",
+    "latitude": -6.2767,
+    "longitude": 106.7448,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Rawa Buntu",
+    "code": "RU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rawa-buntu",
+    "latitude": -6.3149,
+    "longitude": 106.6762,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Batuceper",
+    "code": "BPR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/batuceper",
+    "latitude": -6.1722,
+    "longitude": 106.665,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Bojong Indah",
+    "code": "BOI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bojong-indah",
+    "latitude": -6.16,
+    "longitude": 106.7366,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Grogol",
+    "code": "GRG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/grogol",
+    "latitude": -6.1621,
+    "longitude": 106.7894,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pesing",
+    "code": "PSG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pesing",
+    "latitude": -6.1612,
+    "longitude": 106.772,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Taman Kota",
+    "code": "TKO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/taman-kota",
+    "latitude": -6.1586,
+    "longitude": 106.7566,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kalideres",
+    "code": "KDS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalideres",
+    "latitude": -6.1661,
+    "longitude": 106.7034,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Poris",
+    "code": "PI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/poris",
+    "latitude": -6.1697,
+    "longitude": 106.6814,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Rawa Buaya",
+    "code": "RW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rawa-buaya",
+    "latitude": -6.1626,
+    "longitude": 106.7236,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KLATEN",
+    "code": "KT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/klaten",
+    "latitude": -7.7123,
+    "longitude": 110.603,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BRAMBANAN",
+    "code": "BBN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/brambanan",
+    "latitude": -7.7565,
+    "longitude": 110.5004,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Ceper",
+    "code": "CE",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ceper",
+    "latitude": -7.669,
+    "longitude": 110.675,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Srowot",
+    "code": "SWT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/srowot",
+    "latitude": -7.7413,
+    "longitude": 110.5494,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Butuh",
+    "code": "BTH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/butuh",
+    "latitude": -7.7244,
+    "longitude": 109.8584,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEBUMEN",
+    "code": "KM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kebumen",
+    "latitude": -7.6819,
+    "longitude": 109.6622,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Prembun",
+    "code": "PRB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/prembun",
+    "latitude": -7.7244,
+    "longitude": 109.7982,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WONOSARI",
+    "code": "WNS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wonosari",
+    "latitude": -7.6973,
+    "longitude": 109.7014,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Delanggu",
+    "code": "DL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/delanggu",
+    "latitude": -7.6221,
+    "longitude": 110.7066,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Gawok",
+    "code": "GW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gawok",
+    "latitude": -7.5894,
+    "longitude": 110.7444,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KUTOWINANGUN",
+    "code": "KWN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kutowinangun",
+    "latitude": -7.7168,
+    "longitude": 109.7342,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Ijo",
+    "code": "IJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ijo",
+    "latitude": -7.6155,
+    "longitude": 109.4462,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANGANYAR",
+    "code": "KA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karanganyar",
+    "latitude": -7.6333,
+    "longitude": 109.5734,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sruweng",
+    "code": "SRW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sruweng",
+    "latitude": -7.6547,
+    "longitude": 109.6024,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMPIUH",
+    "code": "SPH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumpiuh",
+    "latitude": -7.6152,
+    "longitude": 109.3614,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tambak",
+    "code": "TBK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tambak",
+    "latitude": -7.6131,
+    "longitude": 109.408,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kemranjen",
+    "code": "KJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kemranjen",
+    "latitude": -7.6216,
+    "longitude": 109.3154,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JENAR",
+    "code": "JN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jenar",
+    "latitude": -7.802,
+    "longitude": 110.0008,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WOJO",
+    "code": "WJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wojo",
+    "latitude": -7.8619,
+    "longitude": 110.0406,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIMINDI",
+    "code": "CMD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cimindi",
+    "latitude": -6.896,
+    "longitude": 107.5612,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GADOBANGKONG",
+    "code": "GK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gadobangkong",
+    "latitude": -6.8649,
+    "longitude": 107.5152,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Andir",
+    "code": "AND",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/andir",
+    "latitude": -6.9079,
+    "longitude": 107.5794,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CILEJIT",
+    "code": "CJT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilejit",
+    "latitude": -6.3543,
+    "longitude": 106.5096,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Daru",
+    "code": "DAR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/daru",
+    "latitude": -6.3379,
+    "longitude": 106.4924,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TENJO",
+    "code": "TEJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tenjo",
+    "latitude": -6.3276,
+    "longitude": 106.462,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kebasen",
+    "code": "KBS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kebasen",
+    "latitude": -7.5303,
+    "longitude": 109.2032,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Notog",
+    "code": "NTG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/notog",
+    "latitude": -7.4858,
+    "longitude": 109.2134,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Randegan",
+    "code": "RDN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/randegan",
+    "latitude": -7.5701,
+    "longitude": 109.22,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Larangan (Tegal)",
+    "code": "LR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/larangan-tegal",
+    "latitude": -6.8682,
+    "longitude": 109.1858,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Palur",
+    "code": "PL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/palur",
+    "latitude": -7.5682,
+    "longitude": 110.8756,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BUMIAYU",
+    "code": "BMA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bumiayu",
+    "latitude": -7.2374,
+    "longitude": 109.0098,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kretek",
+    "code": "KRT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kretek",
+    "latitude": -7.2856,
+    "longitude": 109.0298,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Linggapura",
+    "code": "LG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/linggapura",
+    "latitude": -7.185,
+    "longitude": 109.0124,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PRUPUK",
+    "code": "PPK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/prupuk",
+    "latitude": -7.122,
+    "longitude": 108.9852,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RANGKASBITUNG",
+    "code": "RK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rangkasbitung",
+    "latitude": -6.3526,
+    "longitude": 106.2514,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Karang Sari",
+    "code": "KRR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karang-sari",
+    "latitude": -7.3822,
+    "longitude": 109.1208,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGAGEL",
+    "code": "NGA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngagel",
+    "latitude": -7.2878,
+    "longitude": 112.7482,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Karang Gandul",
+    "code": "KGD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karang-gandul",
+    "latitude": -7.388,
+    "longitude": 109.1858,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Patuguran",
+    "code": "PAT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/patuguran",
+    "latitude": -7.3281,
+    "longitude": 109.0578,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PEMALANG",
+    "code": "PML",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pemalang",
+    "latitude": -6.8873,
+    "longitude": 109.388,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BATANG",
+    "code": "BTG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/batang",
+    "latitude": -6.9065,
+    "longitude": 109.7326,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Comal",
+    "code": "CO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/comal",
+    "latitude": -6.9093,
+    "longitude": 109.5368,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Jerakah",
+    "code": "JRK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jerakah",
+    "latitude": -6.9805,
+    "longitude": 110.3626,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kalibodri",
+    "code": "KBD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalibodri",
+    "latitude": -6.9736,
+    "longitude": 110.1482,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KALIWUNGU",
+    "code": "KLN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kaliwungu",
+    "latitude": -6.9598,
+    "longitude": 110.2548,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kerengseng",
+    "code": "KNS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kerengseng",
+    "latitude": -6.9524,
+    "longitude": 110.028,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kuripan",
+    "code": "KRP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kuripan",
+    "latitude": -6.9238,
+    "longitude": 109.8944,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Mangkang",
+    "code": "MKG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mangkang",
+    "latitude": -6.9711,
+    "longitude": 110.303,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Plabuan",
+    "code": "PLB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/plabuan",
+    "latitude": -6.9198,
+    "longitude": 109.956,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sragi",
+    "code": "SRI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sragi",
+    "latitude": -6.9238,
+    "longitude": 109.571,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Suradadi",
+    "code": "SD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/suradadi",
+    "latitude": -6.8805,
+    "longitude": 109.276,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Ujungnegoro",
+    "code": "UJN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ujungnegoro",
+    "latitude": -6.9087,
+    "longitude": 109.7892,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WELERI",
+    "code": "WLR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/weleri",
+    "latitude": -6.9708,
+    "longitude": 110.0698,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEMAYORAN",
+    "code": "KMO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kemayoran",
+    "latitude": -6.1619,
+    "longitude": 106.8414,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RAJAWALI",
+    "code": "RJW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rajawali",
+    "latitude": -6.1451,
+    "longitude": 106.8368,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BREBES",
+    "code": "BB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/brebes",
+    "latitude": -6.8743,
+    "longitude": 109.0434,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cikoya",
+    "code": "CKY",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cikoya",
+    "latitude": -6.3356,
+    "longitude": 106.4118,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CILEDUG",
+    "code": "CLD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciledug",
+    "latitude": -6.9029,
+    "longitude": 108.744,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Citeras",
+    "code": "CTR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/citeras",
+    "latitude": -6.3349,
+    "longitude": 106.3328,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KETANGGUNGAN",
+    "code": "KGG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ketanggungan",
+    "latitude": -6.9383,
+    "longitude": 108.8844,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Luwung",
+    "code": "LWG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/luwung",
+    "latitude": -6.7776,
+    "longitude": 108.5932,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "MAJA",
+    "code": "MJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/maja",
+    "latitude": -6.3323,
+    "longitude": 106.3962,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Songgom",
+    "code": "SGG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/songgom",
+    "latitude": -7.0245,
+    "longitude": 108.9888,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Larangan",
+    "code": "LRA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/larangan",
+    "latitude": -6.9906,
+    "longitude": 108.9488,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tanah Tinggi",
+    "code": "THI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanah-tinggi",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Tangerang",
+    "code": "TNG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tangerang",
+    "latitude": -6.1769,
+    "longitude": 106.6326,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "LOSARI",
+    "code": "LOS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/losari",
+    "latitude": -6.8461,
+    "longitude": 108.8018,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TANJUNG",
+    "code": "TGN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanjung",
+    "latitude": -6.8767,
+    "longitude": 108.861,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Waruduwur",
+    "code": "WDW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/waruduwur",
+    "latitude": -6.7837,
+    "longitude": 108.6224,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GENENG",
+    "code": "GG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/geneng",
+    "latitude": -7.4979,
+    "longitude": 111.4188,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kedungbanteng",
+    "code": "KDB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kedungbanteng",
+    "latitude": -7.4052,
+    "longitude": 111.1172,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kemiri",
+    "code": "KMR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kemiri",
+    "latitude": -7.534,
+    "longitude": 110.9014,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Masaran",
+    "code": "MSR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/masaran",
+    "latitude": -7.4681,
+    "longitude": 110.9478,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SRAGEN",
+    "code": "SR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sragen",
+    "latitude": -7.4294,
+    "longitude": 111.018,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kebon Romo",
+    "code": "KRO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kebon-romo",
+    "latitude": -7.4191,
+    "longitude": 111.064,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEDUNG GALAR",
+    "code": "KG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kedung-galar",
+    "latitude": -7.4183,
+    "longitude": 111.3068,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CICALENGKA",
+    "code": "CCL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cicalengka",
+    "latitude": -6.9816,
+    "longitude": 107.8328,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIMEKAR",
+    "code": "CMK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cimekar",
+    "latitude": -6.9499,
+    "longitude": 107.715,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GEDEBAGE",
+    "code": "GDB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gedebage",
+    "latitude": -6.9409,
+    "longitude": 107.69,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "HAURPUGUR",
+    "code": "HRP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/haurpugur",
+    "latitude": -6.9807,
+    "longitude": 107.7996,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BRUMBUNG",
+    "code": "BBG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/brumbung",
+    "latitude": -7.0256,
+    "longitude": 110.5222,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ALASTUA",
+    "code": "ATA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/alastua",
+    "latitude": -6.9844,
+    "longitude": 110.4758,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BAGOR",
+    "code": "BGR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bagor",
+    "latitude": -7.5716,
+    "longitude": 111.8528,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BARON",
+    "code": "BRN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/baron",
+    "latitude": -7.6028,
+    "longitude": 112.039,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CARUBAN",
+    "code": "CRB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/caruban",
+    "latitude": -7.551,
+    "longitude": 111.6548,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIKUDAPATEUH",
+    "code": "CTH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cikudapateuh",
+    "latitude": -6.9187,
+    "longitude": 107.6262,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGANJUK",
+    "code": "NJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/nganjuk",
+    "latitude": -7.6001,
+    "longitude": 111.9028,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SARADAN",
+    "code": "SRD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/saradan",
+    "latitude": -7.5475,
+    "longitude": 111.7322,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUKOMORO",
+    "code": "SKM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sukomoro",
+    "latitude": -7.6026,
+    "longitude": 111.9426,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KANDANGAN",
+    "code": "KDA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kandangan",
+    "latitude": -7.2508,
+    "longitude": 112.6572,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TANDES",
+    "code": "TES",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tandes",
+    "latitude": -7.259,
+    "longitude": 112.687,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ANCOL",
+    "code": "AC",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ancol",
+    "latitude": -6.1281,
+    "longitude": 106.8448,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Legok",
+    "code": "LGK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/legok",
+    "latitude": -7.3555,
+    "longitude": 109.0872,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BENOWO",
+    "code": "BNW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/benowo",
+    "latitude": -7.2341,
+    "longitude": 112.6152,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CERME",
+    "code": "CME",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cerme",
+    "latitude": -7.2244,
+    "longitude": 112.571,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "DUDUK",
+    "code": "DD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/duduk",
+    "latitude": -7.1546,
+    "longitude": 112.5206,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GEMBONG",
+    "code": "GEB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gembong",
+    "latitude": -7.1023,
+    "longitude": 112.2224,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "LAMONGAN",
+    "code": "LMG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/lamongan",
+    "latitude": -7.1125,
+    "longitude": 112.4202,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PUCUK",
+    "code": "PC",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pucuk",
+    "latitude": -7.0975,
+    "longitude": 112.2698,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SURABAYAN",
+    "code": "SBN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/surabayan",
+    "latitude": -7.0997,
+    "longitude": 112.3555,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TARIK",
+    "code": "TRK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tarik",
+    "latitude": -7.4595,
+    "longitude": 112.5186,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BOHARAN",
+    "code": "BH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/boharan",
+    "latitude": -7.3879,
+    "longitude": 112.6196,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KRIAN",
+    "code": "KRN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/krian",
+    "latitude": -7.4101,
+    "longitude": 112.5862,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BOWERNO",
+    "code": "BWO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bowerno",
+    "latitude": -7.1312,
+    "longitude": 112.0998,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CEPU",
+    "code": "CU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cepu",
+    "latitude": -7.1542,
+    "longitude": 111.5912,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JOMBANG",
+    "code": "JG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jombang",
+    "latitude": -7.5578,
+    "longitude": 112.2334,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KAPAS",
+    "code": "KPS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kapas",
+    "latitude": -7.1991,
+    "longitude": 111.9334,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kasugihan",
+    "code": "KH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kasugihan",
+    "latitude": -7.6183,
+    "longitude": 109.1218,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMBEREJO",
+    "code": "SRJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumberejo",
+    "latitude": -7.1777,
+    "longitude": 112.0016,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GAMBRINGAN",
+    "code": "GBN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gambringan",
+    "latitude": -7.1438,
+    "longitude": 110.915,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GUBUG",
+    "code": "GUB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gubug",
+    "latitude": -7.061,
+    "longitude": 110.6696,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KALITIDU",
+    "code": "KIT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalitidu",
+    "latitude": -7.1317,
+    "longitude": 111.7674,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANGJATI",
+    "code": "KGT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karangjati",
+    "latitude": -7.1014,
+    "longitude": 110.7792,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGROMBO",
+    "code": "NBO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngrombo",
+    "latitude": -7.1453,
+    "longitude": 110.9004,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PETERONGAN",
+    "code": "PTR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/peterongan",
+    "latitude": -7.5419,
+    "longitude": 112.2792,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SEDADI",
+    "code": "SDI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sedadi",
+    "latitude": -7.1406,
+    "longitude": 110.8484,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMOBITO",
+    "code": "SBO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumobito",
+    "latitude": -7.5195,
+    "longitude": 112.3394,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tegowanu",
+    "code": "TGW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tegowanu",
+    "latitude": -7.053,
+    "longitude": 110.6024,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TOBO",
+    "code": "TBO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tobo",
+    "latitude": -7.1724,
+    "longitude": 111.6552,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CURAHMALANG",
+    "code": "CRM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/curahmalang",
+    "latitude": -7.5069,
+    "longitude": 112.3704,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "DOPLANG",
+    "code": "DPL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/doplang",
+    "latitude": -7.1828,
+    "longitude": 111.288,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JAMBON",
+    "code": "JBN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jambon",
+    "latitude": -7.1503,
+    "longitude": 111.0102,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kapuan",
+    "code": "KPA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kapuan",
+    "latitude": -7.1886,
+    "longitude": 111.5552,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KRADENAN",
+    "code": "KNN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kradenan",
+    "latitude": -7.1499,
+    "longitude": 111.145,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Panunggalan",
+    "code": "PNL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/panunggalan",
+    "latitude": -7.1526,
+    "longitude": 111.0608,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RANDU BLATUNG",
+    "code": "RBG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/randu-blatung",
+    "latitude": -7.1922,
+    "longitude": 111.3982,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sulur",
+    "code": "SL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sulur",
+    "latitude": -7.1741,
+    "longitude": 111.2228,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WADU",
+    "code": "WDU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wadu",
+    "latitude": -7.1964,
+    "longitude": 111.5006,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GEDANGAN",
+    "code": "GDG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gedangan",
+    "latitude": -7.389,
+    "longitude": 112.7286,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WARU",
+    "code": "WR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/waru",
+    "latitude": -7.3525,
+    "longitude": 112.7294,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kampung Bandan Atas",
+    "code": "KPB A",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kampung-bandan-atas",
+    "latitude": -6.133,
+    "longitude": 106.8284,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BANJARKEMANTREN",
+    "code": "BJK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/banjarkemantren",
+    "latitude": -7.4119,
+    "longitude": 112.7262,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BUDURAN",
+    "code": "BDR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/buduran",
+    "latitude": -7.4279,
+    "longitude": 112.723,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIBUNGUR",
+    "code": "CBR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibungur",
+    "latitude": -6.4679,
+    "longitude": 107.4796,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JEMURSARI",
+    "code": "JMS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jemursari",
+    "latitude": -7.3293,
+    "longitude": 112.7314,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KERTOMENANGGAL",
+    "code": "KTL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kertomenanggal",
+    "latitude": -7.3406,
+    "longitude": 112.7294,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "MARGOREJO",
+    "code": "MGR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/margorejo",
+    "latitude": -7.3147,
+    "longitude": 112.7344,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NAGREG",
+    "code": "NG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/nagreg",
+    "latitude": -7.0182,
+    "longitude": 107.8862,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PAGERWOJO",
+    "code": "PWJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pagerwojo",
+    "latitude": -7.4413,
+    "longitude": 112.7156,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SAWOTRATAP",
+    "code": "STP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sawotratap",
+    "latitude": -7.3678,
+    "longitude": 112.7294,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIBATU",
+    "code": "CB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibatu",
+    "latitude": -7.1001,
+    "longitude": 107.9796,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Leles",
+    "code": "LL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/leles",
+    "latitude": -7.0842,
+    "longitude": 107.8997,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Leuwigoong",
+    "code": "LO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/leuwigoong",
+    "latitude": -7.1033,
+    "longitude": 107.9582,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Stasiun Kereta Api Cepat - Halim",
+    "code": "KCIC-HLP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/stasiun-kereta-api-cepat-halim",
+    "latitude": -6.2455,
+    "longitude": 106.8847,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Stasiun Kereta Api Cepat - Karawang",
+    "code": "KCIC-KW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/stasiun-kereta-api-cepat-karawang",
+    "latitude": -6.3646,
+    "longitude": 107.219,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Stasiun Kereta Api Cepat - Tegalluar Summarecon",
+    "code": "KCIC-TLR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/stasiun-kereta-api-cepat-tegalluar-summarecon",
+    "latitude": -6.964,
+    "longitude": 107.7144,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Lebak Jero",
+    "code": "LBJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/lebak-jero",
+    "latitude": -7.0536,
+    "longitude": 107.894,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sadang",
+    "code": "SAD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sadang",
+    "latitude": -6.5107,
+    "longitude": 107.4564,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANG SARI",
+    "code": "KRAI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karang-sari-1",
+    "latitude": -7.0983,
+    "longitude": 107.9312,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PORONG",
+    "code": "PR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/porong",
+    "latitude": -7.5384,
+    "longitude": 112.7018,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TANGGULANGIN",
+    "code": "TGA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanggulangin",
+    "latitude": -7.5068,
+    "longitude": 112.7082,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIGANEA",
+    "code": "CA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciganea",
+    "latitude": -6.5735,
+    "longitude": 107.4308,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIKADONGDONG",
+    "code": "CD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cikadongdong",
+    "latitude": -6.7152,
+    "longitude": 107.3904,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CILAME",
+    "code": "CLE",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilame",
+    "latitude": -6.8033,
+    "longitude": 107.4638,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "MASWATI",
+    "code": "MSI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/maswati",
+    "latitude": -6.7609,
+    "longitude": 107.409,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PLERED",
+    "code": "PLD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/plered",
+    "latitude": -6.6404,
+    "longitude": 107.3914,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RENDEH",
+    "code": "RH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rendeh",
+    "latitude": -6.7359,
+    "longitude": 107.398,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUKATANI",
+    "code": "SUT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sukatani",
+    "latitude": -6.6109,
+    "longitude": 107.4086,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cisomang",
+    "code": "CG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cisomang",
+    "latitude": -6.6863,
+    "longitude": 107.3978,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Awipari",
+    "code": "AW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/awipari",
+    "latitude": -7.3537,
+    "longitude": 108.2744,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Bojong",
+    "code": "BJG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bojong",
+    "latitude": -7.3473,
+    "longitude": 108.4294,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIAWI",
+    "code": "CAW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciawi",
+    "latitude": -7.1574,
+    "longitude": 108.1458,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cirahayu",
+    "code": "CAA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cirahayu",
+    "latitude": -7.1342,
+    "longitude": 108.1184,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Indihiang",
+    "code": "IH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/indihiang",
+    "latitude": -7.2871,
+    "longitude": 108.2012,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Karangpucung",
+    "code": "KNP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karangpucung",
+    "latitude": -7.3535,
+    "longitude": 108.494,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Manonjaya",
+    "code": "MNJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/manonjaya",
+    "latitude": -7.3532,
+    "longitude": 108.3026,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "YOGYAKARTA INTERNATIONAL AIRPORT",
+    "code": "YIA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/yogyakarta-international-airport",
+    "latitude": -7.8975,
+    "longitude": 110.0613,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Bumi Waluya",
+    "code": "BMW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bumi-waluya",
+    "latitude": -7.0586,
+    "longitude": 108.0706,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Warung Bandrek",
+    "code": "WB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/warung-bandrek",
+    "latitude": -7.0647,
+    "longitude": 108.007,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGUNUT",
+    "code": "NT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngunut",
+    "latitude": -8.1028,
+    "longitude": 112.0122,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TULUNGAGUNG",
+    "code": "TA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tulungagung",
+    "latitude": -8.063,
+    "longitude": 111.9048,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cipari",
+    "code": "CPI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cipari",
+    "latitude": -7.4402,
+    "longitude": 108.7612,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kawunganten",
+    "code": "KWG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kawunganten",
+    "latitude": -7.5909,
+    "longitude": 108.9194,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Langen",
+    "code": "LN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/langen",
+    "latitude": -7.3601,
+    "longitude": 108.637,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Lebeng",
+    "code": "LBG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/lebeng",
+    "latitude": -7.6213,
+    "longitude": 109.0774,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Meluwung",
+    "code": "MLW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/meluwung",
+    "latitude": -7.3944,
+    "longitude": 108.6996,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGADILUWIH",
+    "code": "NDL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngadiluwih",
+    "latitude": -7.8984,
+    "longitude": 111.988,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGUJANG",
+    "code": "NJG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngujang",
+    "latitude": -8.0105,
+    "longitude": 111.9272,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PAPAR",
+    "code": "PPR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/papar",
+    "latitude": -7.6976,
+    "longitude": 112.0796,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PURWOASRI",
+    "code": "PWA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/purwoasri",
+    "latitude": -7.6473,
+    "longitude": 112.1002,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "REJO TANGAN",
+    "code": "RJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rejo-tangan",
+    "latitude": -8.121,
+    "longitude": 112.0812,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SIDAREJA",
+    "code": "SDR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sidareja",
+    "latitude": -7.4865,
+    "longitude": 108.8076,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GANDRUNG MANGUN",
+    "code": "GDM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gandrung-mangun",
+    "latitude": -7.5281,
+    "longitude": 108.8592,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "MINGGIRAN",
+    "code": "MGN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/minggiran",
+    "latitude": -7.7281,
+    "longitude": 112.0574,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMBER GEMPOL",
+    "code": "SBL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumber-gempol",
+    "latitude": -8.0824,
+    "longitude": 111.9446,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUSUHAN",
+    "code": "SS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/susuhan",
+    "latitude": -7.7712,
+    "longitude": 112.026,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WLINGI",
+    "code": "WG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wlingi",
+    "latitude": -8.0883,
+    "longitude": 112.32,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEPANJEN",
+    "code": "KPN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kepanjen",
+    "latitude": -8.1319,
+    "longitude": 112.5736,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "NGEBRUK",
+    "code": "NB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ngebruk",
+    "latitude": -8.1519,
+    "longitude": 112.518,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KADIPIRO",
+    "code": "KDO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kadipiro",
+    "latitude": -7.531,
+    "longitude": 110.818,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "POHGAJIH",
+    "code": "PGJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pohgajih",
+    "latitude": -8.1573,
+    "longitude": 112.4206,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMBER PUCUNG",
+    "code": "SBP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumber-pucung",
+    "latitude": -8.1584,
+    "longitude": 112.4784,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cibinong",
+    "code": "CBN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibinong",
+    "latitude": -6.4641,
+    "longitude": 106.8525,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GARUM",
+    "code": "GRM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/garum",
+    "latitude": -8.0735,
+    "longitude": 112.217,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Gunung Putri",
+    "code": "GPI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gunung-putri",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Pondokrajeg",
+    "code": "PDRG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pondokrajeg",
+    "latitude": -6.4607,
+    "longitude": 106.8242,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TALUN",
+    "code": "TAL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/talun",
+    "latitude": -8.0915,
+    "longitude": 112.2886,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PASURUAN",
+    "code": "PS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pasuruan",
+    "latitude": -7.6374,
+    "longitude": 112.9098,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BLIMBING",
+    "code": "BMG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/blimbing",
+    "latitude": -7.9411,
+    "longitude": 112.6446,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "LAWANG",
+    "code": "LW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/lawang",
+    "latitude": -7.8368,
+    "longitude": 112.6978,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SINGOSARI",
+    "code": "SGS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/singosari",
+    "latitude": -7.897,
+    "longitude": 112.6664,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JEMBER",
+    "code": "JR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jember",
+    "latitude": -8.1651,
+    "longitude": 113.7034,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SENGON",
+    "code": "SN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sengon",
+    "latitude": -7.7552,
+    "longitude": 112.7246,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUKOREJO",
+    "code": "SKJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sukorejo",
+    "latitude": -7.7193,
+    "longitude": 112.7234,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WONOKERTO",
+    "code": "WN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wonokerto",
+    "latitude": -7.662,
+    "longitude": 112.7552,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BANGSALSARI",
+    "code": "BSS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bangsalsari",
+    "latitude": -8.203,
+    "longitude": 113.5334,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BAYEMAN",
+    "code": "BYM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bayeman",
+    "latitude": -7.7347,
+    "longitude": 113.1188,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Goprak",
+    "code": "GPK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/goprak",
+    "latitude": -7.2729,
+    "longitude": 110.8972,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GRATI",
+    "code": "GI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/grati",
+    "latitude": -7.7175,
+    "longitude": 113.0122,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GUNDIH",
+    "code": "GD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gundih",
+    "latitude": -7.2187,
+    "longitude": 110.9,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JATIROTO",
+    "code": "JTR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jatiroto",
+    "latitude": -8.1234,
+    "longitude": 113.3642,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kalioso",
+    "code": "KO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalioso",
+    "latitude": -7.4662,
+    "longitude": 110.8052,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KLAKAH",
+    "code": "KK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/klakah",
+    "latitude": -7.9937,
+    "longitude": 113.2484,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "LECES",
+    "code": "LEC",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/leces",
+    "latitude": -7.8469,
+    "longitude": 113.229,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Malasan",
+    "code": "MLS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/malasan",
+    "latitude": -7.8861,
+    "longitude": 113.2605,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Mangli",
+    "code": "MI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mangli",
+    "latitude": -8.1886,
+    "longitude": 113.6552,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PROBOLINGGO",
+    "code": "PB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/probolinggo",
+    "latitude": -7.7427,
+    "longitude": 113.2158,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RAMBIPUJI",
+    "code": "RBP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rambipuji",
+    "latitude": -8.2034,
+    "longitude": 113.6144,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Randuangung",
+    "code": "RDA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/randuangung",
+    "latitude": -8.0711,
+    "longitude": 113.3058,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "RANUYOSO",
+    "code": "RN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ranuyoso",
+    "latitude": -7.9545,
+    "longitude": 113.237,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "REJOSO",
+    "code": "RO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rejoso",
+    "latitude": -7.6895,
+    "longitude": 112.9658,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SALEM",
+    "code": "SLM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/salem",
+    "latitude": -7.3956,
+    "longitude": 110.8272,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Segitigamesigit",
+    "code": "STM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/segitigamesigit",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Sumber Lawang",
+    "code": "SUM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumber-lawang",
+    "latitude": -7.3277,
+    "longitude": 110.8638,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TANGGUL",
+    "code": "TGL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanggul",
+    "latitude": -8.1628,
+    "longitude": 113.4482,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ROGOJAMPI",
+    "code": "RGP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/rogojampi",
+    "latitude": -8.3045,
+    "longitude": 114.2926,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ARGOPURO",
+    "code": "AGO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/argopuro",
+    "latitude": -8.1836,
+    "longitude": 114.3694,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "ARJASA",
+    "code": "AJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/arjasa",
+    "latitude": -8.1279,
+    "longitude": 113.7484,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BANYUWANGI KOTA",
+    "code": "BWI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/banyuwangi-kota",
+    "latitude": -8.2229,
+    "longitude": 114.3408,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GARAHAN",
+    "code": "GRN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/garahan",
+    "latitude": -8.2249,
+    "longitude": 113.8958,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GLENMORE",
+    "code": "GLM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/glenmore",
+    "latitude": -8.2995,
+    "longitude": 114.0494,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GUMILIR",
+    "code": "GM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gumilir",
+    "latitude": -7.685,
+    "longitude": 109.0426,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KALIBARU",
+    "code": "KBR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalibaru",
+    "latitude": -8.2889,
+    "longitude": 113.9844,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KALISAT",
+    "code": "KLT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalisat",
+    "latitude": -8.127,
+    "longitude": 113.8124,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KALISETAIL",
+    "code": "KSL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalisetail",
+    "latitude": -8.3029,
+    "longitude": 114.1402,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Karang Kandri",
+    "code": "KKD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karang-kandri",
+    "latitude": -7.6662,
+    "longitude": 109.0756,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANGSONO",
+    "code": "KSO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karangsono",
+    "latitude": -7.1963,
+    "longitude": 110.8256,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KEDUNG JATI",
+    "code": "KEJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kedung-jati",
+    "latitude": -7.1635,
+    "longitude": 110.6356,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Ketapang",
+    "code": "KTG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ketapang",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "LEDOKOMBO",
+    "code": "LDO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ledokombo",
+    "latitude": -8.1406,
+    "longitude": 113.8756,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Mrawan",
+    "code": "MRW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mrawan",
+    "latitude": -8.2724,
+    "longitude": 113.9268,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Padas",
+    "code": "PDS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/padas",
+    "latitude": -7.1792,
+    "longitude": 110.672,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sempolan",
+    "code": "SPL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sempolan",
+    "latitude": -8.1926,
+    "longitude": 113.8962,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SINGOJURUH",
+    "code": "SGJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/singojuruh",
+    "latitude": -8.3066,
+    "longitude": 114.2408,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUMBER WADUNG",
+    "code": "SWD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sumber-wadung",
+    "latitude": -8.3019,
+    "longitude": 114.1054,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tanggung",
+    "code": "TGG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tanggung",
+    "latitude": -7.0915,
+    "longitude": 110.6032,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TELAWA",
+    "code": "TW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/telawa",
+    "latitude": -7.1857,
+    "longitude": 110.752,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TEMUGURUH",
+    "code": "TGR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/temuguruh",
+    "latitude": -8.3096,
+    "longitude": 114.2024,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIROYOM",
+    "code": "CIR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciroyom",
+    "latitude": -6.9142,
+    "longitude": 107.5904,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Kotok",
+    "code": "KTK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kotok",
+    "latitude": -8.1261,
+    "longitude": 113.779,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BOGOR PALEDANG",
+    "code": "BOP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/bogor-paledang",
+    "latitude": -6.5979,
+    "longitude": 106.7905,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIBADAK",
+    "code": "CBD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibadak",
+    "latitude": -6.8882,
+    "longitude": 106.7804,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CICURUG",
+    "code": "CCR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cicurug",
+    "latitude": -6.7904,
+    "longitude": 106.7796,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CISAAT",
+    "code": "CSA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cisaat",
+    "latitude": -6.9139,
+    "longitude": 106.8876,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "MASENG",
+    "code": "MSG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/maseng",
+    "latitude": -6.7024,
+    "longitude": 106.8146,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PARUNG KUDA",
+    "code": "PRK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/parung-kuda",
+    "latitude": -6.8465,
+    "longitude": 106.7606,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "BATU TULIS",
+    "code": "BTT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/batu-tulis",
+    "latitude": -6.6258,
+    "longitude": 106.8096,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CATANG",
+    "code": "CT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/catang",
+    "latitude": -6.2657,
+    "longitude": 106.268,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIKEUSAL",
+    "code": "CKL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cikeusal",
+    "latitude": -6.217,
+    "longitude": 106.2446,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CILEGON",
+    "code": "CLG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilegon",
+    "latitude": -6.0196,
+    "longitude": 106.0532,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "JAMBU BARU",
+    "code": "JBU",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/jambu-baru",
+    "latitude": -6.3029,
+    "longitude": 106.2606,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANGANTU",
+    "code": "KRA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karangantu",
+    "latitude": -6.039,
+    "longitude": 106.162,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SERANG",
+    "code": "SG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/serang",
+    "latitude": -6.1124,
+    "longitude": 106.1586,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WALANTAKA",
+    "code": "WLT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/walantaka",
+    "latitude": -6.1554,
+    "longitude": 106.2188,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIGOMBONG",
+    "code": "CGB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cigombong",
+    "latitude": -6.7422,
+    "longitude": 106.803,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Ciomas",
+    "code": "CS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciomas",
+    "latitude": -6.6518,
+    "longitude": 106.8094,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KARANG TENGAH",
+    "code": "KE",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karang-tengah",
+    "latitude": -6.8963,
+    "longitude": 106.8224,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "KRENCENG",
+    "code": "KEN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/krenceng",
+    "latitude": -6.0098,
+    "longitude": 106.023,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tonjongbaru",
+    "code": "TOJB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tonjongbaru",
+    "latitude": -6.0313,
+    "longitude": 106.1214,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cijambe",
+    "code": "CJE",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cijambe",
+    "latitude": -6.8177,
+    "longitude": 106.76,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CILACAP",
+    "code": "CP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilacap",
+    "latitude": -7.7361,
+    "longitude": 109.007,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Pondok Leungsir",
+    "code": "PON",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pondok-leungsir",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Sidotopo",
+    "code": "SDT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sidotopo",
+    "latitude": -7.2353,
+    "longitude": 112.7574,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Balapulang",
+    "code": "BLP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/balapulang",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "KALIMAS",
+    "code": "KLM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/kalimas",
+    "latitude": -7.2199,
+    "longitude": 112.735,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Margasari",
+    "code": "MGS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/margasari",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Mesigit",
+    "code": "MST",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mesigit",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "SLAWI",
+    "code": "SLW",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/slawi",
+    "latitude": -6.9818,
+    "longitude": 109.1365,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Benteng",
+    "code": "SBE",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/benteng",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "ADI SOEMARMO",
+    "code": "SMO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/adi-soemarmo",
+    "latitude": -7.5135,
+    "longitude": 110.7479,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIANJUR",
+    "code": "CJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cianjur",
+    "latitude": -6.8248,
+    "longitude": 107.1428,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIBEBER",
+    "code": "CBB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cibeber",
+    "latitude": -6.9375,
+    "longitude": 107.1212,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIREUNGAS",
+    "code": "CRG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cireungas",
+    "latitude": -6.9585,
+    "longitude": 107.0368,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "GANDASOLI",
+    "code": "GDS",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/gandasoli",
+    "latitude": -6.9414,
+    "longitude": 106.9922,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "LAMPEGAN",
+    "code": "LP",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/lampegan",
+    "latitude": -6.9499,
+    "longitude": 107.0616,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PASIRJENGKOL",
+    "code": "PSJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pasirjengkol",
+    "latitude": -7.1286,
+    "longitude": 107.9923,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WANARAJA",
+    "code": "WNR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wanaraja",
+    "latitude": -7.1646,
+    "longitude": 107.9769,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Cilaku",
+    "code": "CIK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cilaku",
+    "latitude": -6.888,
+    "longitude": 107.1266,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "INDRO",
+    "code": "IDO",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/indro",
+    "latitude": -7.177,
+    "longitude": 112.6644,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Karangtalun",
+    "code": "KRL",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/karangtalun",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Ranji",
+    "code": "RI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ranji",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Sindangresmi",
+    "code": "SSI",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sindangresmi",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "Cipatat",
+    "code": "CPT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cipatat",
+    "latitude": -6.822,
+    "longitude": 107.386,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIPEUYEUM",
+    "code": "CPY",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cipeuyeum",
+    "latitude": -6.8185,
+    "longitude": 107.2982,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIRANJANG",
+    "code": "CRJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ciranjang",
+    "latitude": -6.8141,
+    "longitude": 107.2512,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Maleber",
+    "code": "MLB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/maleber",
+    "latitude": -6.8179,
+    "longitude": 107.1756,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "PASAR NGUTER",
+    "code": "PNT",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/pasar-nguter",
+    "latitude": -7.7414,
+    "longitude": 110.8786,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Raja Mandala",
+    "code": "RM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/raja-mandala",
+    "latitude": -6.8245,
+    "longitude": 107.3466,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Selajambe",
+    "code": "SLJ",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/selajambe",
+    "latitude": -6.8136,
+    "longitude": 107.2226,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SOLO KOTA (SANGKRAH)",
+    "code": "STA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/solo-kota-sangkrah",
+    "latitude": -7.5757,
+    "longitude": 110.8362,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "SUKOHARJO",
+    "code": "SKH",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sukoharjo",
+    "latitude": -7.6798,
+    "longitude": 110.8432,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Tipar",
+    "code": "TPR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tipar",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "TULANGAN",
+    "code": "TLN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tulangan",
+    "latitude": -7.4657,
+    "longitude": 112.651,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "CIGADING",
+    "code": "CGD",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cigading",
+    "latitude": -6.022,
+    "longitude": 105.9636,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Soka",
+    "code": "SOA",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/soka",
+    "latitude": -7.6791,
+    "longitude": 109.6396,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WONOGIRI",
+    "code": "WNG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wonogiri",
+    "latitude": -7.8161,
+    "longitude": 110.9214,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "WILANGAN",
+    "code": "WLG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/wilangan",
+    "latitude": -7.5612,
+    "longitude": 111.8038,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Dayeuhkolot",
+    "code": "DYK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/dayeuhkolot",
+    "latitude": -6.9892,
+    "longitude": 107.628,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "TONJONG BARU",
+    "code": "TOJB/TJB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/tonjong-baru",
+    "latitude": null,
+    "longitude": null,
+    "country": null,
+    "image_local_path": null
+  },
+  {
+    "name": "CIPINANG",
+    "code": "CPN",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/cipinang",
+    "latitude": -6.2142,
+    "longitude": 106.8844,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "EX Stasiun Rawa Bebek",
+    "code": "RWB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ex-stasiun-rawa-bebek",
+    "latitude": -6.2312,
+    "longitude": 106.9906,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Mampang",
+    "code": "MPG",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/mampang",
+    "latitude": -6.2059,
+    "longitude": 106.8394,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "Sokaraja",
+    "code": "SOK",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/sokaraja",
+    "latitude": -7.4609,
+    "longitude": 109.2902,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "AEK LOBA",
+    "code": "AKB",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/aek-loba",
+    "latitude": 2.6516,
+    "longitude": 99.6158,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "AIR ASAM",
+    "code": "AIS/ASM",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/air-asam",
+    "latitude": -3.6472,
+    "longitude": 104.2508,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "AIR TAWAR",
+    "code": "ATR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/air-tawar",
+    "latitude": -0.9004,
+    "longitude": 100.3508,
+    "country": "Indonesia",
+    "image_local_path": null
+  },
+  {
+    "name": "AMBARAWA",
+    "code": "ABR",
+    "image": null,
+    "url_new": "https://168railway.com/jadwal-stasiun/ambarawa",
+    "latitude": -7.2656,
+    "longitude": 110.4014,
+    "country": "Indonesia",
+    "image_local_path": null
+  }
+]

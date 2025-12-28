@@ -34,13 +34,9 @@ func (v *Validator) ValidateStruct(data interface{}) []string {
 				format = "%s tidak valid"
 			}
 
-			// Handle %s banyak (field, param, value)
-			switch verr.Tag() {
-			case "before":
+			if verr.Param() != "" {
 				messages = append(messages, fmt.Sprintf(format, verr.Field(), verr.Param()))
-			case "min", "max":
-				messages = append(messages, fmt.Sprintf(format, verr.Field(), verr.Param()))
-			default:
+			} else {
 				messages = append(messages, fmt.Sprintf(format, verr.Field()))
 			}
 		}
@@ -50,13 +46,30 @@ func (v *Validator) ValidateStruct(data interface{}) []string {
 
 func (v *Validator) ValidateRequest(c *gin.Context, req interface{}) bool {
 	if err := c.ShouldBindJSON(req); err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"message": []string{"Format data tidak valid"}})
+		c.JSON(http.StatusBadRequest, gin.H{
+			"message": "Ada kesalahan, format json tidak valid.",
+		})
 		return false
 	}
-	msgs := v.ValidateStruct(req)
-	if len(msgs) > 0 {
-		c.JSON(http.StatusBadRequest, gin.H{"message": msgs})
+	inputError := v.ValidateStruct(req)
+	if len(inputError) > 0 {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"message": "Ada kesalahan, check kembali.",
+			"error":   inputError,
+		})
 		return false
 	}
 	return true
+}
+
+func GetMessage(tag string) string {
+	template := map[string]string{
+		"error_server": "Terjadi kesalahan pada server",
+	}
+
+	if v, ok := template[tag]; ok {
+		return v
+	}
+
+	return "Tidak ada pesan error"
 }

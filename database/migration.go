@@ -9,6 +9,7 @@ func Migrate() {
 	log.Println("Migrating...")
 	err := DB.AutoMigrate(
 		&model.User{},
+		&model.Token{},
 		&model.Station{},
 		&model.Train{},
 		&model.ScheduleGroup{},
