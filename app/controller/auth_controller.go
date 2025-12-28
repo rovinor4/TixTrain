@@ -54,8 +54,8 @@ func (ctl *AuthController) Login(c *gin.Context) {
 		Value:     GenerateToken,
 		UserID:    user.ID,
 		UserAgent: c.Request.UserAgent(),
-		CreatedAt: time.Now().Unix(),
-		ExpiresAt: time.Now().Add(24 * time.Hour).Unix(),
+		CreatedAt: time.Now(),
+		ExpiresAt: time.Now().Add(24 * time.Hour),
 	}
 
 	err = database.DB.Create(&Token).Error

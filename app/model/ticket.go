@@ -3,16 +3,16 @@ package model
 import "time"
 
 type Ticket struct {
-	ID uint `Gorm:"primaryKey"`
+	ID uint `gorm:"primaryKey;autoIncrement"`
 
 	UserID uint
-	User   User `Gorm:"foreignKey:UserID"`
+	User   User `gorm:"foreignKey:UserID"`
 
 	ScheduleID uint
-	Schedule   Schedule `Gorm:"foreignKey:ScheduleID"`
+	Schedule   Schedule `gorm:"foreignKey:ScheduleID"`
 
 	SeatID uint
-	Seat   Seat `Gorm:"foreignKey:SeatID"`
+	Seat   Seat `gorm:"foreignKey:SeatID"`
 
 	Price  int64
 	Status string

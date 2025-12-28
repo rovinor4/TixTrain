@@ -7,14 +7,16 @@ import (
 )
 
 type User struct {
-	ID              uint `Gorm:"primaryKey"`
-	Name            string
-	Email           string `Gorm:"unique"`
-	EmailVerifiedAt *time.Time
-	Password        string
-	RememberToken   *string
-	profilePicture  string
-	VectorPicture   pgvector.Vector `Gorm:"type:vector(1536);column:vector_picture"`
-	CreatedAt       time.Time
-	UpdatedAt       time.Time
+	ID               uint             `gorm:"primaryKey;autoIncrement"`
+	Name             string           `faker:"name"`
+	Email            string           `gorm:"unique;size:255;not null" faker:"email,unique"`
+	Password         string           `gorm:"size:255;not null"`
+	ProfilePicture   *string          `gorm:"size:255;nullable"`
+	VectorPicture    *pgvector.Vector `gorm:"type:vector(1536);nullable"`
+	Role             string           `gorm:"size:50;type:enum('admin','passenger','staff');default:'passenger'"`
+	IdentityCardType string           `gorm:"size:50;type:enum('KTP','SIM','Passport');default:'KTP'"`
+	IdentityCardNo   string           `gorm:"size:100;not null;unique" faker:"number:20"`
+	EmailVerifiedAt  *time.Time       `gorm:"nullable"`
+	CreatedAt        time.Time
+	UpdatedAt        time.Time
 }

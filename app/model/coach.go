@@ -3,14 +3,14 @@ package model
 import "time"
 
 type Coach struct {
-	ID      uint `Gorm:"primaryKey"`
+	ID      uint `gorm:"primaryKey;autoIncrement"`
 	TrainID uint
-	Train   Train `Gorm:"foreignKey:TrainID"`
+	Train   Train `gorm:"foreignKey:TrainID"`
 
 	Code  string
 	Class string
 
-	Seats []Seat `Gorm:"foreignKey:CoachID"`
+	Seats []Seat `gorm:"foreignKey:CoachID"`
 
 	CreatedAt time.Time
 	UpdatedAt time.Time

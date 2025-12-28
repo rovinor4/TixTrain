@@ -3,12 +3,12 @@ package model
 import "time"
 
 type ScheduleGroup struct {
-	ID      uint `Gorm:"primaryKey"`
+	ID      uint `gorm:"primaryKey;autoIncrement"`
 	Name    string
 	TrainID uint
-	Train   Train `Gorm:"foreignKey:TrainID"`
+	Train   Train `gorm:"foreignKey:TrainID"`
 
-	Schedules []Schedule `Gorm:"foreignKey:ScheduleGroupID"`
+	Schedules []Schedule `gorm:"foreignKey:ScheduleGroupID"`
 
 	CreatedAt time.Time
 	UpdatedAt time.Time
