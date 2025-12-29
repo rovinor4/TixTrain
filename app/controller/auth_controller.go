@@ -10,19 +10,19 @@ import (
 	"go.uber.org/zap"
 )
 
-type AuthController struct {
-	Validator *pkg.Validator
-}
-
 type loginRequest struct {
-	Email    string `json:"email" binding:"required,email"`
-	Password string `json:"password" binding:"required"`
+	Email    string `json:"email" validate:"required,email"`
+	Password string `json:"password" validate:"required"`
 }
 
-func (ctl *AuthController) Login(c *gin.Context) {
+type AuthController struct{}
+
+//  NOTE: AuthController handles user authentication
+
+func (a *AuthController) Login(c *gin.Context) {
 	var req loginRequest
 
-	if !ctl.Validator.ValidateRequest(c, &req) {
+	if !pkg.GlobalValidator.ValidateRequest(c, &req) {
 		return
 	}
 
@@ -31,10 +31,10 @@ func (ctl *AuthController) Login(c *gin.Context) {
 
 	if have == 0 || !pkg.CheckPasswordHash(req.Password, user.Password) {
 		c.JSON(401, gin.H{
-			"message": "Email atau password salah",
 			"error": gin.H{
 				"email": "Email atau password salah",
 			},
+			"message": nil,
 		})
 		return
 	}
@@ -71,7 +71,24 @@ func (ctl *AuthController) Login(c *gin.Context) {
 		"message": "Login successful",
 		"data": gin.H{
 			"token": GenerateToken,
-			"user":  user,
 		},
 	})
+}
+
+func (a *AuthController) Logout(c *gin.Context) {
+	tokenString := c.GetString("token")
+
+	err := database.DB.Where("value = ?", tokenString).Delete(&model.Token{}).Error
+	if err != nil {
+		c.JSON(500, gin.H{
+			"message": pkg.GetMessage("error_server"),
+		})
+		pkg.Logger.Error("Error deleting token", zap.Error(err))
+		return
+	}
+
+	c.JSON(200, gin.H{
+		"message": "Logout successful",
+	})
+
 }

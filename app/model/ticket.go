@@ -9,10 +9,9 @@ type Ticket struct {
 	User   User `gorm:"foreignKey:UserID"`
 
 	ScheduleID uint
-	Schedule   Schedule `gorm:"foreignKey:ScheduleID"`
+	Schedule   Schedule `gorm:"foreignKey:ScheduleID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 
-	SeatID uint
-	Seat   Seat `gorm:"foreignKey:SeatID"`
+	TicketDetail []TicketDetail `gorm:"foreignKey:TicketID"`
 
 	Price  int64
 	Status string

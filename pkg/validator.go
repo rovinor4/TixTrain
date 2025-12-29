@@ -3,6 +3,7 @@ package pkg
 import (
 	"fmt"
 	"net/http"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
@@ -13,19 +14,23 @@ type Validator struct {
 	MessageErrors map[string]string
 }
 
-func (v *Validator) InitValidator() {
-	v.validate = validator.New()
-	v.MessageErrors = map[string]string{
-		"required": "%s wajib di isi",
-		"before":   "%s harus sebelum %s",
-		"min":      "%s minimal %s karakter",
-		"max":      "%s maksimal %s karakter",
-		"email":    "%s harus berupa email yang valid",
+var GlobalValidator *Validator
+
+func InitValidator() {
+	GlobalValidator = &Validator{
+		validate: validator.New(),
+		MessageErrors: map[string]string{
+			"required": "%s wajib di isi",
+			"before":   "%s harus sebelum %s",
+			"min":      "%s minimal %s karakter",
+			"max":      "%s maksimal %s karakter",
+			"email":    "%s harus berupa email yang valid",
+		},
 	}
 }
 
-func (v *Validator) ValidateStruct(data interface{}) []string {
-	var messages []string
+func (v *Validator) ValidateStruct(data interface{}) map[string]string {
+	messages := make(map[string]string)
 	err := v.validate.Struct(data)
 	if err != nil {
 		for _, verr := range err.(validator.ValidationErrors) {
@@ -34,11 +39,16 @@ func (v *Validator) ValidateStruct(data interface{}) []string {
 				format = "%s tidak valid"
 			}
 
+			var message string
 			if verr.Param() != "" {
-				messages = append(messages, fmt.Sprintf(format, verr.Field(), verr.Param()))
+				message = fmt.Sprintf(format, verr.Field(), verr.Param())
 			} else {
-				messages = append(messages, fmt.Sprintf(format, verr.Field()))
+				message = fmt.Sprintf(format, verr.Field())
 			}
+
+			// Convert field name ke lowercase untuk key
+			fieldName := strings.ToLower(verr.Field())
+			messages[fieldName] = message
 		}
 	}
 	return messages

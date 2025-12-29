@@ -28,7 +28,7 @@ go.sum
 .air.toml
 
 # Storage
-storage/logs/
+storage/logs/*.log
 storage/public/station_images/*.webp
 storage/tmp/
 
@@ -39,3 +39,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+TixTrain

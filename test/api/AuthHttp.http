@@ -1,0 +1,16 @@
+### Login User
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "passenger@example.com",
+  "password": "password123"
+}
+
+
+### Get User Profile
+@token = "07528febd2612a0892abb48b402a64b8c5e0f85a-mmmm"
+#@token = "xxx"
+GET http://localhost:8080/test
+Authorization: Bearer {{token}}
+

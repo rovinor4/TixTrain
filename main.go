@@ -1,7 +1,6 @@
 package main
 
 import (
-	"TixTrain/app/controller"
 	"TixTrain/database"
 	"TixTrain/pkg"
 	"log"
@@ -46,14 +45,17 @@ func main() {
 	}
 	gin.SetMode(ginMode)
 
-	// Initialize Validator
-	var validator pkg.Validator
-	validator.InitValidator()
-
-	regController := controller.RegisterController{Validator: &validator}
+	// Initialize Global Validator
+	pkg.InitValidator()
 
 	r := gin.Default()
-	SetupRoutes(r, &regController)
+
+	// Setup CORS middleware
+	r.Use(pkg.SetupCORS())
+	// Uncomment this line if you want to allow all origins during development:
+	// r.Use(pkg.SetupCORSAllowAll())
+
+	SetupRoutes(r)
 
 	// Gin Port
 	ginPort := os.Getenv("GIN_PORT")
@@ -63,5 +65,4 @@ func main() {
 		pkg.Logger.Error("Error starting server", zap.Error(err))
 		return
 	}
-
 }

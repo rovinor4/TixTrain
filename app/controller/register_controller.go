@@ -7,20 +7,18 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type RegisterRequest struct {
-	Nama     string `json:"nama" binding:"required"`
-	Email    string `json:"email" binding:"required,email"`
-	Password string `json:"password" binding:"required,min=6"`
+type registerRequest struct {
+	Name     string `json:"name" validate:"required"`
+	Email    string `json:"email" validate:"required,email"`
+	Password string `json:"password" validate:"required,min=6"`
 }
 
-type RegisterController struct {
-	Validator *pkg.Validator
-}
+type RegisterController struct{}
 
 func (ctl *RegisterController) Register(c *gin.Context) {
-	var req RegisterRequest
+	var req registerRequest
 
-	if !ctl.Validator.ValidateRequest(c, &req) {
+	if !pkg.GlobalValidator.ValidateRequest(c, &req) {
 		return
 	}
 

@@ -21,9 +21,14 @@ func ConnectDB() error {
 		os.Getenv("DB_NAME"),
 		os.Getenv("DB_PORT"),
 	)
-	DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{
-		Logger: logger.Default.LogMode(logger.Info),
-	})
+
+	config := &gorm.Config{}
+	if os.Getenv("DEBUG_SQL") == "true" {
+		config.Logger = logger.Default.LogMode(logger.Info)
+	}
+
+	DB, err = gorm.Open(postgres.Open(dsn), config)
+
 	if err != nil {
 		log.Fatal(err)
 		return err

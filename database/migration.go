@@ -8,23 +8,9 @@ import (
 func Migrate() {
 	log.Println("Migrating...")
 
-	//err := DB.Migrator().DropTable(
-	//	&model.User{},
-	//	&model.Token{},
-	//	&model.Station{},
-	//	&model.Train{},
-	//	&model.ScheduleGroup{},
-	//	&model.Schedule{},
-	//	&model.Coach{},
-	//	&model.Seat{},
-	//	&model.Ticket{},
-	//)
-	//if err != nil {
-	//	return
-	//}
-
-	err := DB.AutoMigrate(
+	err := DB.Migrator().DropTable(
 		&model.User{},
+		&model.IdentityCard{},
 		&model.Token{},
 		&model.Station{},
 		&model.Train{},
@@ -33,6 +19,24 @@ func Migrate() {
 		&model.Coach{},
 		&model.Seat{},
 		&model.Ticket{},
+		&model.TicketDetail{},
+	)
+	if err != nil {
+		return
+	}
+
+	err = DB.AutoMigrate(
+		&model.User{},
+		&model.IdentityCard{},
+		&model.Token{},
+		&model.Station{},
+		&model.Train{},
+		&model.ScheduleGroup{},
+		&model.Schedule{},
+		&model.Coach{},
+		&model.Seat{},
+		&model.Ticket{},
+		&model.TicketDetail{},
 	)
 	if err != nil {
 		return
