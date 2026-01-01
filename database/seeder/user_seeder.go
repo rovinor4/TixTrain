@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"log"
 	"math/rand"
 	"time"
@@ -51,7 +51,7 @@ func SeedUsers() error {
 		},
 	}
 
-	if err := database.DB.Create(&defaultUsers).Error; err != nil {
+	if err := pkg.DB.Create(&defaultUsers).Error; err != nil {
 		return err
 	}
 
@@ -97,7 +97,7 @@ func SeedUsers() error {
 			users = append(users, user)
 		}
 
-		if err := database.DB.CreateInBatches(users, batchSize).Error; err != nil {
+		if err := pkg.DB.CreateInBatches(users, batchSize).Error; err != nil {
 			return err
 		}
 

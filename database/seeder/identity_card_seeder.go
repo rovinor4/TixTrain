@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"fmt"
 	"log"
 	"math/rand"
@@ -14,7 +14,7 @@ import (
 func SeedIdentityCards() error {
 	// Check if identity cards already exist
 	var count int64
-	if err := database.DB.Model(&model.IdentityCard{}).Count(&count).Error; err != nil {
+	if err := pkg.DB.Model(&model.IdentityCard{}).Count(&count).Error; err != nil {
 		return err
 	}
 
@@ -25,7 +25,7 @@ func SeedIdentityCards() error {
 
 	// Fetch all users with role passenger
 	var users []model.User
-	if err := database.DB.Select("id").Where("role", "passenger").Find(&users).Error; err != nil {
+	if err := pkg.DB.Select("id").Where("role", "passenger").Find(&users).Error; err != nil {
 		return err
 	}
 
@@ -97,7 +97,7 @@ func SeedIdentityCards() error {
 
 		// Batch insert
 		if (idx+1)%batchSize == 0 || idx == len(users)-1 {
-			if err := database.DB.Create(&identityCards).Error; err != nil {
+			if err := pkg.DB.Create(&identityCards).Error; err != nil {
 				return err
 			}
 			log.Printf("Progress: %d/%d users processed", idx+1, len(users))

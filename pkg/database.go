@@ -1,10 +1,12 @@
-package database
+package pkg
 
 import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 
+	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
@@ -35,4 +37,23 @@ func ConnectDB() error {
 	}
 
 	return nil
+}
+
+// Paginate : make function pagination for gorm
+// usage: scopeFunc, meta := pkg.Paginate(pageSize) -> db.Scopes(scopeFunc).Find(&models)
+func Paginate(c *gin.Context, pageSize int) (func(db *gorm.DB) *gorm.DB, int, int, int) {
+	pageGet := c.DefaultQuery("page", "1")
+	page, _ := strconv.Atoi(pageGet)
+
+	switch {
+	case pageSize > 100:
+		pageSize = 100
+	case pageSize <= 0:
+		pageSize = 10
+	}
+	offset := (page - 1) * pageSize
+
+	return func(db *gorm.DB) *gorm.DB {
+		return db.Offset(offset).Limit(pageSize)
+	}, page, pageSize, offset
 }

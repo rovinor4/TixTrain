@@ -2,13 +2,14 @@ package database
 
 import (
 	"TixTrain/app/model"
+	"TixTrain/pkg"
 	"log"
 )
 
 func Migrate() {
 	log.Println("Migrating...")
 
-	err := DB.Migrator().DropTable(
+	err := pkg.DB.Migrator().DropTable(
 		&model.User{},
 		&model.IdentityCard{},
 		&model.Token{},
@@ -25,7 +26,7 @@ func Migrate() {
 		return
 	}
 
-	err = DB.AutoMigrate(
+	err = pkg.DB.AutoMigrate(
 		&model.User{},
 		&model.IdentityCard{},
 		&model.Token{},

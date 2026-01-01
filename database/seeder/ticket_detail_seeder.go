@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"log"
 	"math/rand"
 )
@@ -10,7 +10,7 @@ import (
 func SeedTicketDetails() error {
 	// Fetch all tickets
 	var tickets []model.Ticket
-	if err := database.DB.Select("id, user_id, created_at, updated_at").Find(&tickets).Error; err != nil {
+	if err := pkg.DB.Select("id, user_id, created_at, updated_at").Find(&tickets).Error; err != nil {
 		return err
 	}
 
@@ -21,7 +21,7 @@ func SeedTicketDetails() error {
 
 	// Fetch all seats
 	var seats []model.Seat
-	if err := database.DB.Select("id").Find(&seats).Error; err != nil {
+	if err := pkg.DB.Select("id").Find(&seats).Error; err != nil {
 		return err
 	}
 
@@ -32,7 +32,7 @@ func SeedTicketDetails() error {
 
 	// Fetch all identity cards grouped by user
 	var identityCards []model.IdentityCard
-	if err := database.DB.Select("id, user_id").Find(&identityCards).Error; err != nil {
+	if err := pkg.DB.Select("id, user_id").Find(&identityCards).Error; err != nil {
 		return err
 	}
 
@@ -82,7 +82,7 @@ func SeedTicketDetails() error {
 		// Batch insert
 		if len(ticketDetails) >= batchSize || idx == len(tickets)-1 {
 			if len(ticketDetails) > 0 {
-				if err := database.DB.CreateInBatches(ticketDetails, batchSize).Error; err != nil {
+				if err := pkg.DB.CreateInBatches(ticketDetails, batchSize).Error; err != nil {
 					return err
 				}
 				progress := idx + 1

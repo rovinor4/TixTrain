@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"log"
 	"math/rand"
 	"time"
@@ -14,13 +14,13 @@ func SeedTickets() error {
 	var schedules []model.Schedule
 	var coaches []model.Coach
 
-	if err := database.DB.Select("id").Where("role", "passenger").Find(&users).Error; err != nil {
+	if err := pkg.DB.Select("id").Where("role", "passenger").Find(&users).Error; err != nil {
 		return err
 	}
-	if err := database.DB.Select("id").Find(&schedules).Error; err != nil {
+	if err := pkg.DB.Select("id").Find(&schedules).Error; err != nil {
 		return err
 	}
-	if err := database.DB.Select("id, class").Find(&coaches).Error; err != nil {
+	if err := pkg.DB.Select("id, class").Find(&coaches).Error; err != nil {
 		return err
 	}
 
@@ -92,7 +92,7 @@ func SeedTickets() error {
 			tickets = append(tickets, ticket)
 		}
 
-		if err := database.DB.CreateInBatches(tickets, batchSize).Error; err != nil {
+		if err := pkg.DB.CreateInBatches(tickets, batchSize).Error; err != nil {
 			return err
 		}
 

@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"encoding/json"
 	"os"
 )
@@ -31,7 +31,7 @@ func SeedTrains() error {
 			Code: tJSON.Code,
 		}
 
-		if err := database.DB.Where("code = ?", train.Code).FirstOrCreate(&train).Error; err != nil {
+		if err := pkg.DB.Where("code = ?", train.Code).FirstOrCreate(&train).Error; err != nil {
 			return err
 		}
 	}

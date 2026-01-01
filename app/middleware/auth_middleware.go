@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -25,7 +25,7 @@ func AuthMiddleware() gin.HandlerFunc {
 
 		// Cari token di database
 		var token model.Token
-		dataToken := database.DB.Where("value = ?", tokenString).First(&token)
+		dataToken := pkg.DB.Where("value = ?", tokenString).First(&token)
 		if dataToken.RowsAffected == 0 || dataToken.Error != nil {
 			c.JSON(401, gin.H{
 				"message": "Token tidak valid",
@@ -43,7 +43,7 @@ func AuthMiddleware() gin.HandlerFunc {
 		}
 
 		var user model.User
-		dataUser := database.DB.Where("id = ?", token.UserID).First(&user)
+		dataUser := pkg.DB.Where("id = ?", token.UserID).First(&user)
 		if dataUser.RowsAffected == 0 || dataUser.Error != nil {
 			c.JSON(401, gin.H{
 				"message": "User tidak ditemukan",

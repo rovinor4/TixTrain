@@ -2,7 +2,6 @@ package controller
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
 	"TixTrain/pkg"
 	"time"
 
@@ -27,9 +26,9 @@ func (a *AuthController) Login(c *gin.Context) {
 	}
 
 	var user model.User
-	have := database.DB.Where("email = ?", req.Email).First(&user).RowsAffected
+	have := pkg.DB.Where("email = ?", req.Email).First(&user).RowsAffected
 
-	if have == 0 || !pkg.CheckPasswordHash(req.Password, user.Password) {
+	if have == 0 || !new(pkg.Hash).CheckPasswordHash(req.Password, user.Password) {
 		c.JSON(401, gin.H{
 			"error": gin.H{
 				"email": "Email atau password salah",
@@ -58,7 +57,7 @@ func (a *AuthController) Login(c *gin.Context) {
 		ExpiresAt: time.Now().Add(24 * time.Hour),
 	}
 
-	err = database.DB.Create(&Token).Error
+	err = pkg.DB.Create(&Token).Error
 	if err != nil {
 		c.JSON(500, gin.H{
 			"message": pkg.GetMessage("error_server"),
@@ -78,7 +77,7 @@ func (a *AuthController) Login(c *gin.Context) {
 func (a *AuthController) Logout(c *gin.Context) {
 	tokenString := c.GetString("token")
 
-	err := database.DB.Where("value = ?", tokenString).Delete(&model.Token{}).Error
+	err := pkg.DB.Where("value = ?", tokenString).Delete(&model.Token{}).Error
 	if err != nil {
 		c.JSON(500, gin.H{
 			"message": pkg.GetMessage("error_server"),

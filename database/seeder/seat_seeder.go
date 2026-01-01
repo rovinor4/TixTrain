@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"fmt"
 	"log"
 	"time"
@@ -12,7 +12,7 @@ import (
 
 func SeedSeats() error {
 	var coaches []model.Coach
-	if err := database.DB.Find(&coaches).Error; err != nil {
+	if err := pkg.DB.Find(&coaches).Error; err != nil { // Change from pkg.DB to database.DB
 		return err
 	}
 
@@ -73,7 +73,7 @@ func SeedSeats() error {
 
 			// Batch insert
 			if len(seats) >= batchSize {
-				if err := database.DB.CreateInBatches(seats, batchSize).Error; err != nil {
+				if err := pkg.DB.CreateInBatches(seats, batchSize).Error; err != nil {
 					return err
 				}
 				log.Printf("Inserted %d seats", len(seats))
@@ -84,7 +84,7 @@ func SeedSeats() error {
 
 	// Insert remaining
 	if len(seats) > 0 {
-		if err := database.DB.CreateInBatches(seats, batchSize).Error; err != nil {
+		if err := pkg.DB.CreateInBatches(seats, batchSize).Error; err != nil {
 			return err
 		}
 		log.Printf("Inserted final %d seats", len(seats))

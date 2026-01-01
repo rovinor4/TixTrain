@@ -2,14 +2,34 @@ package main
 
 import (
 	"TixTrain/database"
+	"TixTrain/database/seeder"
 	"TixTrain/pkg"
+	"TixTrain/route"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"go.uber.org/zap"
 )
+
+func HandleCLI() bool {
+	if len(os.Args) > 1 {
+		cmd := strings.ToLower(os.Args[1])
+		switch cmd {
+		case "migrate":
+			database.Migrate()
+			return true
+		case "seed":
+			log.Println("Seeding...")
+			seeder.InitSeeder()
+			log.Println("Seeding finished!")
+			return true
+		}
+	}
+	return false
+}
 
 func main() {
 
@@ -27,14 +47,14 @@ func main() {
 	}
 
 	// Connect to Database
-	err = database.ConnectDB()
+	err = pkg.ConnectDB()
 	if err != nil {
 		pkg.Logger.Error("Database connection failed", zap.Error(err))
 		log.Fatal(err)
 		return
 	}
 
-	if pkg.HandleCLI() {
+	if HandleCLI() {
 		return
 	}
 
@@ -48,16 +68,12 @@ func main() {
 	// Initialize Global Validator
 	pkg.InitValidator()
 
+	// Gin Setup
 	r := gin.Default()
-
-	// Setup CORS middleware
 	r.Use(pkg.SetupCORS())
-	// Uncomment this line if you want to allow all origins during development:
-	// r.Use(pkg.SetupCORSAllowAll())
+	route.SetupRoutes(r)
 
-	SetupRoutes(r)
-
-	// Gin Port
+	// Start server
 	ginPort := os.Getenv("GIN_PORT")
 	pkg.Logger.Info("App started, listening on port 8080")
 	err = r.Run(":" + ginPort)

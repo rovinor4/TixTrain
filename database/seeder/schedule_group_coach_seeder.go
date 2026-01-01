@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"fmt"
 	"log"
 	"time"
@@ -12,7 +12,7 @@ import (
 
 func SeedScheduleGroupsAndCoaches() error {
 	var trains []model.Train
-	if err := database.DB.Find(&trains).Error; err != nil {
+	if err := pkg.DB.Find(&trains).Error; err != nil {
 		return err
 	}
 
@@ -48,7 +48,7 @@ func SeedScheduleGroupsAndCoaches() error {
 				UpdatedAt: time.Now().AddDate(0, 0, -updatedAtOffset[0]),
 			}
 
-			if err := database.DB.Create(&scheduleGroup).Error; err != nil {
+			if err := pkg.DB.Create(&scheduleGroup).Error; err != nil {
 				return err
 			}
 		}
@@ -77,7 +77,7 @@ func SeedScheduleGroupsAndCoaches() error {
 				UpdatedAt: time.Now().AddDate(0, 0, -updatedAtOffset[0]),
 			}
 
-			if err := database.DB.Create(&coach).Error; err != nil {
+			if err := pkg.DB.Create(&coach).Error; err != nil {
 				return err
 			}
 		}

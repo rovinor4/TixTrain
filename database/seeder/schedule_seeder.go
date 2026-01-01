@@ -2,7 +2,7 @@ package seeder
 
 import (
 	"TixTrain/app/model"
-	"TixTrain/database"
+	"TixTrain/pkg"
 	"log"
 	"time"
 
@@ -11,12 +11,12 @@ import (
 
 func SeedSchedules() error {
 	var scheduleGroups []model.ScheduleGroup
-	if err := database.DB.Find(&scheduleGroups).Error; err != nil {
+	if err := pkg.DB.Find(&scheduleGroups).Error; err != nil {
 		return err
 	}
 
 	var stations []model.Station
-	if err := database.DB.Where("latitude IS NOT NULL AND longitude IS NOT NULL").Find(&stations).Error; err != nil {
+	if err := pkg.DB.Where("latitude IS NOT NULL AND longitude IS NOT NULL").Find(&stations).Error; err != nil {
 		return err
 	}
 
@@ -123,7 +123,7 @@ func SeedSchedules() error {
 
 				// Batch insert
 				if len(schedules) >= batchSize {
-					if err := database.DB.CreateInBatches(schedules, batchSize).Error; err != nil {
+					if err := pkg.DB.CreateInBatches(schedules, batchSize).Error; err != nil {
 						return err
 					}
 					log.Printf("Inserted %d schedules", len(schedules))
@@ -135,7 +135,7 @@ func SeedSchedules() error {
 
 	// Insert remaining
 	if len(schedules) > 0 {
-		if err := database.DB.CreateInBatches(schedules, batchSize).Error; err != nil {
+		if err := pkg.DB.CreateInBatches(schedules, batchSize).Error; err != nil {
 			return err
 		}
 		log.Printf("Inserted final %d schedules", len(schedules))

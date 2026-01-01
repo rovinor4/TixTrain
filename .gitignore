@@ -29,7 +29,7 @@ go.sum
 
 # Storage
 storage/logs/*.log
-storage/public/station_images/*.webp
+storage/public/
 storage/tmp/
 
 # OS
@@ -41,3 +41,5 @@ Thumbs.db
 *.bak
 
 TixTrain
+*.old
+go_build_TixTrain
