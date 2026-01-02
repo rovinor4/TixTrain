@@ -25,7 +25,8 @@ func SeedIdentityCards() error {
 
 	// Fetch all users with role passenger
 	var users []model.User
-	if err := pkg.DB.Select("id").Where("role", "passenger").Find(&users).Error; err != nil {
+	// select id and name, and correct Where syntax
+	if err := pkg.DB.Select("id, name").Where("role = ?", "passenger").Find(&users).Error; err != nil {
 		return err
 	}
 
@@ -34,18 +35,22 @@ func SeedIdentityCards() error {
 		return nil
 	}
 
-	batchSize := 500
+	// seed randomness
+	rand.Seed(time.Now().UnixNano())
+
 	identityTypes := []string{"KTP", "SIM", "Passport"}
 
 	log.Printf("Seeding identity cards for %d passenger users...", len(users))
 
-	// Each passenger will have 1-3 identity cards
-	identityCards := make([]model.IdentityCard, 0, len(users)*2)
 	genders := []string{"Male", "Female"}
 
 	for idx, user := range users {
 		// Random number of identity cards (1-3)
 		numCards := rand.Intn(3) + 1
+		userCards := make([]model.IdentityCard, 0, numCards)
+
+		// Pick which card will be the primary (and ensure its Name == user.Name)
+		primaryIdx := rand.Intn(numCards)
 
 		for i := 0; i < numCards; i++ {
 			identityType := identityTypes[rand.Intn(len(identityTypes))]
@@ -74,34 +79,48 @@ func SeedIdentityCards() error {
 				number = fmt.Sprintf("%s%07d", huruf, angka)
 			}
 
-			// Generate random name and gender
-			name := faker.Name()
+			// Use user's name for the chosen primary identity, otherwise random name
+			var name string
+			if i == primaryIdx {
+				name = user.Name
+			} else {
+				name = faker.Name()
+			}
+
 			gender := genders[rand.Intn(len(genders))]
+
+			// Generate random date of birth (age 17-80 years)
+			yearsOld := rand.Intn(64) + 17 // 17-80 tahun
+			daysOffset := rand.Intn(365)
+			dateOfBirth := time.Now().AddDate(-yearsOld, 0, -daysOffset)
 
 			daysAgo := rand.Intn(365) + 1
 			createdAt := time.Now().AddDate(0, 0, -daysAgo)
 			updatedAt := createdAt.AddDate(0, 0, rand.Intn(daysAgo))
 
 			identityCard := model.IdentityCard{
-				Type:      identityType,
-				Number:    number,
-				Name:      name,
-				Gender:    gender,
-				UserID:    user.ID,
-				CreatedAt: createdAt,
-				UpdatedAt: updatedAt,
+				Type:        identityType,
+				Number:      number,
+				Name:        name,
+				Gender:      gender,
+				DateOfBirth: &dateOfBirth,
+				IsMe:        i == primaryIdx,
+				UserID:      user.ID,
+				CreatedAt:   createdAt,
+				UpdatedAt:   updatedAt,
 			}
 
-			identityCards = append(identityCards, identityCard)
+			userCards = append(userCards, identityCard)
 		}
 
-		// Batch insert
-		if (idx+1)%batchSize == 0 || idx == len(users)-1 {
-			if err := pkg.DB.Create(&identityCards).Error; err != nil {
-				return err
-			}
+		// Insert this user's identity cards
+		if err := pkg.DB.Create(&userCards).Error; err != nil {
+			return err
+		}
+
+		// Progress log per user
+		if (idx+1)%100 == 0 || idx == len(users)-1 {
 			log.Printf("Progress: %d/%d users processed", idx+1, len(users))
-			identityCards = make([]model.IdentityCard, 0, len(users)*2)
 		}
 	}
 

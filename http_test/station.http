@@ -1,0 +1,9 @@
+### Stations List
+GET http://localhost:8080/stations/list
+
+### Stations List (Query Parameter)
+GET http://localhost:8080/stations/list?q=mojokerto
+
+### Stations List (Query Parameter And WithOut)
+GET http://localhost:8080/stations/list?q=mojokerto&withoutId=41
+

@@ -15,9 +15,9 @@ type User struct {
 	VectorPicture   *pgvector.Vector `json:"vector_picture" gorm:"type:vector(1536);nullable"`
 	Role            string           `json:"role" gorm:"size:50;default:'passenger'"` // roles: passenger, admin,conductor
 	EmailVerifiedAt *time.Time       `json:"email_verified_at" gorm:"nullable"`
-	IdentityCard    []IdentityCard   `gorm:"foreignKey:UserID;"`
 	StationId       *uint            `json:"station_id" gorm:"nullable"`
 	Stations        Station          `gorm:"foreignKey:StationId;constraint:OnUpdate:CASCADE,OnDelete:SET NULL;"`
+	IdentityCard    []IdentityCard   `gorm:"foreignKey:UserID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"` // All identity cards (IsMe=true = pemilik, IsMe=false = keluarga/teman)
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 }

@@ -25,6 +25,8 @@ func InitValidator() {
 			"min":      "%s minimal %s karakter",
 			"max":      "%s maksimal %s karakter",
 			"email":    "%s harus berupa email yang valid",
+			"datetime": "%s harus berupa tanggal yang valid dengan format %s",
+			"oneof":    "%s harus salah satu dari nilai berikut: %s",
 		},
 	}
 }
@@ -65,7 +67,7 @@ func (v *Validator) ValidateRequest(c *gin.Context, req interface{}) bool {
 	if len(inputError) > 0 {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"message": "Ada kesalahan, check kembali.",
-			"error":   inputError,
+			"errors":  inputError,
 		})
 		return false
 	}
