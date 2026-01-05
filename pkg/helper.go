@@ -2,6 +2,7 @@ package pkg
 
 import (
 	"fmt"
+	"os"
 	"strings"
 )
 
@@ -54,4 +55,27 @@ func (h *Helper) TitleCase(name string) string {
 		return name
 	}
 	return fmt.Sprintf("%s%s", strings.ToUpper(string(name[0])), strings.ToLower(name[1:]))
+}
+
+// Assets url path
+func (h *Helper) Assets(path string) string {
+	baseUrl := os.Getenv("BASE_URL")
+	if baseUrl != "" {
+		return baseUrl + "/assets/" + path
+	}
+
+	port := os.Getenv("GIN_PORT")
+	return "http://localhost:" + port + "/assets/" + path
+}
+
+// UintToString : convert uint to string
+func UintToString(num uint) string {
+	return fmt.Sprintf("%d", num)
+}
+
+// StringToUint : convert string to uint
+func StringToUint(str string) uint {
+	var num uint
+	fmt.Sscanf(str, "%d", &num)
+	return num
 }

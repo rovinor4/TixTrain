@@ -23,10 +23,15 @@ func SeedIdentityCards() error {
 		return nil
 	}
 
-	// Fetch all users with role passenger
+	// Fetch all users with passenger role via user_roles join
 	var users []model.User
-	// select id and name, and correct Where syntax
-	if err := pkg.DB.Select("id, name").Where("role = ?", "passenger").Find(&users).Error; err != nil {
+	// Join with user_roles and roles to find passengers
+	if err := pkg.DB.
+		Joins("INNER JOIN user_roles ON user_roles.user_id = users.id").
+		Joins("INNER JOIN roles ON roles.id = user_roles.role_id").
+		Where("roles.name = ?", "passenger").
+		Select("users.id, users.name").
+		Find(&users).Error; err != nil {
 		return err
 	}
 

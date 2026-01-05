@@ -5,6 +5,8 @@ import (
 	"TixTrain/pkg"
 	"encoding/json"
 	"os"
+	"path/filepath"
+	"strings"
 )
 
 type StationJSON struct {
@@ -12,6 +14,12 @@ type StationJSON struct {
 	Code      string   `json:"code"`
 	Latitude  *float64 `json:"latitude"`
 	Longitude *float64 `json:"longitude"`
+	Image     *string  `json:"image_local_path" gorm:"type:text;default:null;nullable"`
+}
+
+func replaceFileExtension(filePath string, newExt string) string {
+	ext := filepath.Ext(filePath)
+	return strings.TrimSuffix(filePath, ext) + "." + newExt
 }
 
 func SeedStations() error {
@@ -39,6 +47,11 @@ func SeedStations() error {
 		}
 		if sJSON.Longitude != nil {
 			station.Longitude = *sJSON.Longitude
+		}
+
+		if sJSON.Image != nil {
+			image := replaceFileExtension(*sJSON.Image, "webp")
+			station.Image = &image
 		}
 
 		if err := pkg.DB.Where("code = ?", station.Code).FirstOrCreate(&station).Error; err != nil {

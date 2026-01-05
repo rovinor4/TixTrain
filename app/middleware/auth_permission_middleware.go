@@ -3,13 +3,17 @@ package middleware
 import (
 	"TixTrain/app/model"
 	"TixTrain/pkg"
+	"fmt"
+	"strings"
 	"time"
 
 	"github.com/gin-gonic/gin"
 )
 
-func AuthMiddleware() gin.HandlerFunc {
+// AuthPermissionMiddleware combines authentication and permission checking
+func AuthPermissionMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
+		// 1. AUTH CHECK
 		tokenString := c.GetHeader("Authorization")
 		if len(tokenString) > 7 && tokenString[:7] == "Bearer " {
 			tokenString = tokenString[7:]
@@ -69,6 +73,55 @@ func AuthMiddleware() gin.HandlerFunc {
 		c.Set("user_id", user.ID)
 		c.Set("user_roles", roleNames)
 		c.Set("token", tokenString)
+
+		// 2. PERMISSION CHECK
+		if len(roleNames) == 0 {
+			c.JSON(403, gin.H{
+				"message": "Akses ditolak - User tidak memiliki role",
+			})
+			c.Abort()
+			return
+		}
+
+		// Get current request info
+		method := c.Request.Method
+		path := c.Request.URL.Path
+		requestRoute := fmt.Sprintf("%s %s", method, path)
+
+		// Fetch user's role permissions from database
+		var rolePermissions []model.Permission
+
+		err := pkg.DB.
+			Joins("INNER JOIN role_permissions ON role_permissions.permission_id = permissions.id").
+			Joins("INNER JOIN roles ON roles.id = role_permissions.role_id").
+			Where("roles.name IN ?", roleNames).
+			Find(&rolePermissions).Error
+
+		if err != nil {
+			c.JSON(403, gin.H{
+				"message": "Akses ditolak",
+			})
+			c.Abort()
+			return
+		}
+
+		// Check if current route matches any permission
+		hasPermission := false
+		for _, perm := range rolePermissions {
+			if strings.TrimSpace(perm.Route) == strings.TrimSpace(requestRoute) {
+				hasPermission = true
+				break
+			}
+		}
+
+		if !hasPermission {
+			c.JSON(403, gin.H{
+				"message":        "Akses ditolak - Anda tidak memiliki permission untuk route ini",
+				"required_route": requestRoute,
+			})
+			c.Abort()
+			return
+		}
 
 		c.Next()
 	}

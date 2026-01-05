@@ -11,6 +11,12 @@ type Ticket struct {
 	ScheduleID uint
 	Schedule   Schedule `gorm:"foreignKey:ScheduleID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;"`
 
+	DepartureStationID uint
+	DepartureStation   Station `gorm:"foreignKey:DepartureStationID"`
+
+	ArrivalStationID uint
+	ArrivalStation   Station `gorm:"foreignKey:ArrivalStationID"`
+
 	TicketDetail []TicketDetail `gorm:"foreignKey:TicketID"`
 
 	Price  int64

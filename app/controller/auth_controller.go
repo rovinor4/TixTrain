@@ -100,7 +100,7 @@ func (a *AuthController) Register(c *gin.Context) {
 		return
 	}
 
-	var errors map[string]string
+	errors := make(map[string]string)
 	// Check if email already exists
 	if pkg.DB.Model(&model.User{}).Where("email = ?", req.Email).RowsAffected > 0 {
 		errors["email"] = "Email sudah terdaftar"
@@ -119,7 +119,6 @@ func (a *AuthController) Register(c *gin.Context) {
 		Name:     req.Name,
 		Email:    req.Email,
 		Password: hashPassword,
-		Role:     "passenger",
 	}
 
 	err = pkg.DB.Create(&user).Error
@@ -129,6 +128,16 @@ func (a *AuthController) Register(c *gin.Context) {
 		})
 		pkg.Logger.Error("Error creating user", zap.Error(err))
 		return
+	}
+
+	// Assign passenger role to new user
+	var passengerRole model.Role
+	if err := pkg.DB.Where("name = ?", "passenger").First(&passengerRole).Error; err == nil {
+		userRole := model.UserRole{
+			UserID: user.ID,
+			RoleID: passengerRole.ID,
+		}
+		pkg.DB.Create(&userRole)
 	}
 
 	// make identity card

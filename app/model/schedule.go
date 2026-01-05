@@ -7,12 +7,16 @@ type Schedule struct {
 	ScheduleGroupID uint
 	ScheduleGroup   ScheduleGroup `gorm:"foreignKey:ScheduleGroupID"`
 
-	StationID uint
-	Station   Station `gorm:"foreignKey:StationID"`
+	DepartureStationID uint
+	DepartureStation   Station `gorm:"foreignKey:DepartureStationID"`
+
+	ArrivalStationID uint
+	ArrivalStation   Station `gorm:"foreignKey:ArrivalStationID"`
 
 	ArrivalTime   time.Time
 	DepartureTime time.Time
-	Order         int
-	CreatedAt     time.Time
-	UpdatedAt     time.Time
+
+	Order     int
+	CreatedAt time.Time
+	UpdatedAt time.Time
 }

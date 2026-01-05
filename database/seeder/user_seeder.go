@@ -17,6 +17,17 @@ func SeedUsers() error {
 
 	log.Printf("Seeding %d users...", totalUsers)
 
+	// Check if users already exist
+	var count int64
+	if err := pkg.DB.Model(&model.User{}).Count(&count).Error; err != nil {
+		return err
+	}
+
+	if count > 0 {
+		log.Printf("Users already exist (%d records). Skipping seeder.", count)
+		return nil
+	}
+
 	// Hash password once
 	hashedPassword, err := bcrypt.GenerateFromPassword([]byte("password123"), bcrypt.DefaultCost)
 	if err != nil {
@@ -29,7 +40,6 @@ func SeedUsers() error {
 			Name:      "Default Passenger",
 			Email:     "passenger@example.com",
 			Password:  string(hashedPassword),
-			Role:      "passenger",
 			CreatedAt: time.Now(),
 			UpdatedAt: time.Now(),
 		},
@@ -37,7 +47,6 @@ func SeedUsers() error {
 			Name:      "Default Staff",
 			Email:     "staff@example.com",
 			Password:  string(hashedPassword),
-			Role:      "staff",
 			CreatedAt: time.Now(),
 			UpdatedAt: time.Now(),
 		},
@@ -45,7 +54,6 @@ func SeedUsers() error {
 			Name:      "Default Admin",
 			Email:     "admin@example.com",
 			Password:  string(hashedPassword),
-			Role:      "admin",
 			CreatedAt: time.Now(),
 			UpdatedAt: time.Now(),
 		},
@@ -53,6 +61,26 @@ func SeedUsers() error {
 
 	if err := pkg.DB.Create(&defaultUsers).Error; err != nil {
 		return err
+	}
+
+	// Assign roles to default users
+	roleMap := map[string]string{
+		"passenger@example.com": "passenger",
+		"staff@example.com":     "staff",
+		"admin@example.com":     "admin",
+	}
+
+	for _, user := range defaultUsers {
+		if roleName, ok := roleMap[user.Email]; ok {
+			var role model.Role
+			if err := pkg.DB.Where("name = ?", roleName).First(&role).Error; err == nil {
+				userRole := model.UserRole{
+					UserID: user.ID,
+					RoleID: role.ID,
+				}
+				pkg.DB.Create(&userRole)
+			}
+		}
 	}
 
 	// Generate remaining users
@@ -73,22 +101,11 @@ func SeedUsers() error {
 			createdOffset := rand.Intn(730) + 1
 			updatedOffset := rand.Intn(30) + 1
 
-			// Assign roles based on distribution
-			var role string
-			if batch*batchSize+i < 200 {
-				role = "staff"
-			} else if batch*batchSize+i < 300 {
-				role = "admin"
-			} else {
-				role = "passenger"
-			}
-
 			user := model.User{
 				Name:            faker.Name(),
 				Email:           faker.Email(),
 				Password:        string(hashedPassword),
-				ProfilePicture:  nil, // Profile picture set to nil
-				Role:            role,
+				ProfilePicture:  nil,
 				EmailVerifiedAt: emailVerifiedAt,
 				CreatedAt:       time.Now().AddDate(0, 0, -createdOffset),
 				UpdatedAt:       time.Now().AddDate(0, 0, -updatedOffset),
@@ -99,6 +116,27 @@ func SeedUsers() error {
 
 		if err := pkg.DB.CreateInBatches(users, batchSize).Error; err != nil {
 			return err
+		}
+
+		// Assign roles to created users
+		for idx, user := range users {
+			var roleName string
+			if batch*batchSize+idx < 200 {
+				roleName = "staff"
+			} else if batch*batchSize+idx < 300 {
+				roleName = "admin"
+			} else {
+				roleName = "passenger"
+			}
+
+			var role model.Role
+			if err := pkg.DB.Where("name = ?", roleName).First(&role).Error; err == nil {
+				userRole := model.UserRole{
+					UserID: user.ID,
+					RoleID: role.ID,
+				}
+				pkg.DB.Create(&userRole)
+			}
 		}
 
 		log.Printf("Progress: %d/%d users end", (batch+1)*batchSize, totalUsers)

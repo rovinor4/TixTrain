@@ -10,6 +10,10 @@ func Migrate() {
 	log.Println("Migrating...")
 
 	err := pkg.DB.Migrator().DropTable(
+		&model.RolePermission{},
+		&model.Role{},
+		&model.Permission{},
+		&model.UserRole{},
 		&model.User{},
 		&model.IdentityCard{},
 		&model.Token{},
@@ -27,7 +31,11 @@ func Migrate() {
 	}
 
 	err = pkg.DB.AutoMigrate(
+		&model.Role{},
+		&model.Permission{},
+		&model.RolePermission{},
 		&model.User{},
+		&model.UserRole{},
 		&model.IdentityCard{},
 		&model.Token{},
 		&model.Station{},
@@ -39,10 +47,6 @@ func Migrate() {
 		&model.Ticket{},
 		&model.TicketDetail{},
 	)
-	if err != nil {
-		return
-	}
-
 	if err != nil {
 		log.Fatal(err)
 		return

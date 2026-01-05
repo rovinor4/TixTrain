@@ -21,7 +21,7 @@ func (s *StationController) Get(c *gin.Context) {
 	search := c.DefaultQuery("q", "")
 	withOutId := c.DefaultQuery("withoutId", "")
 
-	if withOutId != "" {
+	if !(withOutId == "" || withOutId == "null") {
 		if _, err := strconv.Atoi(withOutId); err != nil {
 			c.JSON(400, gin.H{"errors": "Parameter 'withoutId' harus berupa angka"})
 			return
@@ -29,6 +29,7 @@ func (s *StationController) Get(c *gin.Context) {
 	}
 
 	scopeFunc, page, pageSize, offset := pkg.Paginate(c, 10)
+	pkg.DB.Model(&model.Station{}).Count(&total)
 	OnDatabase := pkg.DB.Scopes(scopeFunc)
 	if search != "" {
 		OnDatabase.Where("name ILIKE ?", "%"+search+"%")
@@ -36,10 +37,14 @@ func (s *StationController) Get(c *gin.Context) {
 	if withOutId != "" {
 		OnDatabase.Where("id != ?", withOutId)
 	}
-	OnDatabase.Find(&Stations).Count(&total)
+	OnDatabase.Find(&Stations)
 
 	for i := range Stations {
 		Stations[i].Name = new(pkg.Helper).TitleCase(Stations[i].Name)
+		if Stations[i].Image != nil {
+			image := new(pkg.Helper).Assets(*Stations[i].Image)
+			Stations[i].Image = &image
+		}
 	}
 
 	c.JSON(200, gin.H{
