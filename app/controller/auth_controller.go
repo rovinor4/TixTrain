@@ -67,10 +67,28 @@ func (a *AuthController) Login(c *gin.Context) {
 		return
 	}
 
+	// Get user roles
+	var userRoles []model.UserRole
+	var roleNames []string
+	pkg.DB.Where("user_id = ?", user.ID).Find(&userRoles)
+
+	for _, ur := range userRoles {
+		var role model.Role
+		if err := pkg.DB.First(&role, ur.RoleID).Error; err == nil {
+			roleNames = append(roleNames, role.Name)
+		}
+	}
+
 	c.JSON(200, gin.H{
 		"message": "Login successful",
 		"data": gin.H{
 			"token": GenerateToken,
+			"user": gin.H{
+				"id":    user.ID,
+				"name":  user.Name,
+				"email": user.Email,
+			},
+			"roles": roleNames,
 		},
 	})
 }
